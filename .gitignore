@@ -2,7 +2,35 @@
 .venv/
 env/
 venv/
-.idea
+
+# IDE/editor config
+.idea/
+.vscode/
+.devcontainer/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+profile_default/
+*.ipynb
 
 # Streamlit specific
 .streamlit/secrets.toml
+
+# Logs and local run files
+*.log
+*.tmp
+*.bak
+.DS_Store
+*.swp
+
+# MacOS/Linux/Windows metadata
+ehthumbs.db
+Thumbs.db
+Icon?
