@@ -2,6 +2,7 @@
 .venv/
 env/
 venv/
+.idea
 
 # Streamlit specific
 .streamlit/secrets.toml

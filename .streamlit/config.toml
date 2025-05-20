@@ -1,2 +1,5 @@
 [theme]
 base = "dark"
+
+[general]
+previewImage = "assets/preview.png"

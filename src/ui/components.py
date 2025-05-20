@@ -112,55 +112,34 @@ def display_results(best: dict, alts: list[dict], props: Props) -> None:
 
 
 def render_header() -> None:
+    bg_img = get_base64_image("assets/bg.jpg")
     bubl_img = get_base64_image("assets/bubl.png")
     flame_img = get_base64_image("assets/flame.png")
     crys_img = get_base64_image("assets/crys.png")
     jelly_img = get_base64_image("assets/jelly.png")
 
-    col1, col2, col3, col4, col5, col6 = st.columns([2, 4.1, 0.7, 0.7, 0.7, 0.7], gap="small")
-
-    with col1:
-        st.image("assets/mascot.png", width=200)
-    with col2:
-        st.markdown("""
-                <div style='display: flex; flex-direction: column; justify-content: center; height: 100%;'>
-                    <h1 style='margin-top: 18px; margin-bottom: 0; font-size: 46px; font-weight: bold;'>Артефактный лакей</h1>
-                    <p style='color: gray; font-size: 14px;'>Ваш проводник в хаосе. Оптимизируем сборки — выживаем красиво</p>
-                </div>
-                    """, unsafe_allow_html=True)
-    with col3:
-        st.markdown(
-            f"""
-            <div class="pulse-green" style='margin-top: 30px; text-align: center;'>
-                <img src="data:image/png;base64,{bubl_img}" width="100">
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-    with col4:
-        st.markdown(
-            f"""
-            <div class="pulse-yellow" style='margin-top: 30px; text-align: center;'>
-                <img src="data:image/png;base64,{flame_img}" width="100">
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-    with col5:
-        st.markdown(
-            f"""
-            <div class="pulse-red" style='margin-top: 30px; text-align: center;'>
-                <img src="data:image/png;base64,{crys_img}" width="100">
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-    with col6:
-        st.markdown(
-            f"""
-            <div class="pulse-brown" style='margin-top: 30px; text-align: center;'>
-                <img src="data:image/png;base64,{jelly_img}" width="100">
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+    st.markdown(
+        f"""<div class="custom-header" style="
+            background-image: url('data:image/png;base64,{bg_img}');
+            background-size: cover;
+            background-position: center;
+            padding: 32px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+        ">
+    <div class="header-content">
+      <div class="left-spacer"></div>
+      <div class="title-block">
+        <h1>Артефактный лакей</h1>
+        <p>Ваш проводник в хаосе. Оптимизируем сборки — выживаем красиво</p>
+      </div>
+      <div class="artifact-row">
+        <div class="pulse-green artifact-icon"><img src="data:image/png;base64,{bubl_img}"/></div>
+        <div class="pulse-yellow artifact-icon"><img src="data:image/png;base64,{flame_img}"/></div>
+        <div class="pulse-red artifact-icon"><img src="data:image/png;base64,{crys_img}"/></div>
+        <div class="pulse-brown artifact-icon"><img src="data:image/png;base64,{jelly_img}"/></div>
+      </div>
+    </div>
+    </div>""",
+        unsafe_allow_html=True,
+    )
