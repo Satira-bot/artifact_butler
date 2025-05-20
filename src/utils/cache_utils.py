@@ -104,5 +104,4 @@ def get_or_compute_achievable(settings: Any,
 
     _, maxima = compute_fn(settings)
     save_session_achievable(hash_key, maxima)
-    save_disk_achievable(settings.tier, hash_key, maxima)
     return maxima
