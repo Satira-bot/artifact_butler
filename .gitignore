@@ -1,0 +1,7 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Streamlit specific
+.streamlit/secrets.toml

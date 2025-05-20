@@ -1,0 +1,114 @@
+slots:
+  expr: 1
+  low:  NUM_SLOTS
+  high: NUM_SLOTS
+  priority: 0
+
+rad:
+  group:
+    - col_out: "Вывод рад"
+      col_in:  "Накопление рад"
+      sign:    1
+  low:      0
+  high:     100
+  priority: 0
+  rus: "☢️ Рад"
+
+food:
+  column:  "Еда"
+  low:     10
+  high:    null
+  priority: 0
+  rus: "🍗 Еда"
+
+water:
+  column:  "Вода"
+  low:     10
+  high:    null
+  priority: 0
+  rus: "💧 Вода"
+
+temp:
+  column:  "Температура"
+  low:     null
+  high:    null
+  priority: 0
+  rus: "🌡️ Темп"
+
+jump:
+  column:  "Высота прыжок"
+  low:     0
+  high:    8
+  priority: 1.5
+  rus: "🦘 Прыжок"
+
+stamina:
+  column:  "Выносливость"
+  low:     -10
+  high:    50
+  priority: 3
+  rus: "🏃‍♂️ Стамина"
+
+defence:
+  column:  "Защита удар"
+  low:     0
+  high:    10
+  priority: 1.5
+  rus: "🛡️ Удар"
+
+anom_defence:
+  column:  "Защита аномалия"
+  low:     null
+  high:    null
+  priority: 0
+  rus: "🛡️ Аном"
+
+bullet_defence:
+  column:  "Защита пули"
+  low:     null
+  high:    null
+  priority: 0
+  rus: "🛡️ Пули"
+
+blood:
+  column:  "Кровь"
+  low:     0
+  high:    100
+  priority: 0.5
+  rus: "🩸 Кровь"
+
+resilience:
+  column:  "Стойкость (не падать)"
+  low:     0
+  high:    100
+  priority: 0
+  rus: "🪨 Стойкость"
+
+health:
+  column:  "Здоровье"
+  low:     0
+  high:    10
+  priority: 0.5
+  rus: "❤️ ХП"
+
+cut_risk:
+  group:
+    - column: "Лечение порез"
+      sign:   1
+    - column: "Шанс порез"
+      sign:  -1
+  low:      0
+  high:     100
+  priority: 0
+  rus: "🔪 Порез"
+
+break_risk:
+  group:
+    - column: "Лечение перелом"
+      sign:   1
+    - column: "Шанс перелом"
+      sign:  -1
+  low:      0
+  high:     100
+  priority: 0
+  rus: "🦴 Перелом"

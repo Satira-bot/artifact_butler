@@ -1,0 +1,4802 @@
+{
+  "slots_1_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "54b72d8f48d44584a719bc229e53f87999d2f424bb4e6493adbab1f9b770a02a",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_1_blacklist_Пустышка": {
+    "hash": "91cec1153be3355372be95525c715ddb2c71b1ecc40c1f6f15f8ec5a4c3c1160",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "dc6bf9a6a7ac989c7026937edfde63823d13ce70e37200d2145932815a988cf4",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_2_blacklist_Пустышка": {
+    "hash": "7a658c5fd7acee0ee856a4b947a06bcb6170c6ffc5cd7e362747b184c6a39896",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "8ea5e0d3b2eae773e69206a98ca31983e2bf5031bd5a352d89ff3c8c588aff12",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_3_blacklist_Пустышка": {
+    "hash": "9c10c3d63ae759eb8221358c13d318bfc938bc794bb589fd04d1ee0cc8ba92df",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "53ce5e01a38a2cfb5f703d12d923624e59cdf0b008866c6765f9997e7d2a1690",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_4_blacklist_Пустышка": {
+    "hash": "647a5297049d4f113187e3221b8ac0350b5b7ae3b29668c3c07814543c9902dd",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "cf3a50daecfd56e5c879505e8b6261a30e8eebccbf72d3fc7b6e0df6c7a81bda",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_1_maxcopy_5_blacklist_Пустышка": {
+    "hash": "59ce82e1d592918a22566453cbb918f03343acceca2ce099e44d7991f4eecaaf",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "19b23d0113ad94421ad0aed93e18142409df12f68d08f447fcc838a8b69c5689",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_1_blacklist_Пустышка": {
+    "hash": "b0c4b6c3a10b0427e7a063d7eb63614ff069920df52b78cf604e55ee994f655d",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "577d627ef507fc4d54d072c489331fa26c41f663d2537e05d1016f225bf6c80a",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_2_blacklist_Пустышка": {
+    "hash": "52aad70c943927acbe6e83d7efdb6ffbf4ac8e9497d0de498fdb750ae427352d",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "b066ce4929bec36e499ca18dda8ba38ea487b985524378541f6277a98efb9fc2",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_3_blacklist_Пустышка": {
+    "hash": "46ee870e626e0f066f00d88e22794a6cd5af42dd4847f1ebd6115395f452762a",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "9a8f6959454955b6020e8b2ae1bedcccc1e3d89c5389d04f0a6167ccf04256ec",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_4_blacklist_Пустышка": {
+    "hash": "deb1f3d60dea7bf8de420ee75a616937ec8a04f371438455682ab1ad80ee46e3",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "20282d980d1131bfbed94b34de52b78d0035ec9ef6ca6021688dcc5b3b88b5a2",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_2_maxcopy_5_blacklist_Пустышка": {
+    "hash": "0dd5c4f4a0c7bf949e2fe6e70e3bac367a3848cf5348a035d4da9c67746e124c",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "980e85828bd381c09361e822f3c6050210b1234bf1e1ea3c760f4139529104aa",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_1_blacklist_Пустышка": {
+    "hash": "bb6559713cb915182c5ee4057fd192f3a5065ae95ad2f9b24a26815d49e6e9cc",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "c2729cc7e965357177d27861419dfd68ec6017c4bf7d5bdbea30b8fdd0d1956d",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_2_blacklist_Пустышка": {
+    "hash": "72c1ac1a52f956d29538cd03b8465e0ed79a0d8c8475a200e54cae7b810da7d7",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "201886734393dd327303796e2d0b56bd2885a8932c50881af855138bbc8e3d29",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_3_blacklist_Пустышка": {
+    "hash": "d757e0028c3cffa2024533a720de8a8c2b57c5dd2e28b9e5f2cd1365de6d5828",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "8720db321a7db5cbe55031e3a1191afe073dbf2f1d9e2ca0a380573566ef5ece",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_4_blacklist_Пустышка": {
+    "hash": "32b344b596170e8a5d8938a13ab2dc840d5b1ce2f3729c93c88bd7a166623180",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "a42681b883a0d50c0b599d160838ffcecedf74aa812156f2887c9f5599b84770",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_3_maxcopy_5_blacklist_Пустышка": {
+    "hash": "d973201da406413e75e1390ebee53beb0a4e968361524cecefe46aea9c5ed7c8",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "ded91d1515961ebb1cf0bd5caf9f4c3f7fdd0198f0a57f213a66ee661d234b74",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_1_blacklist_Пустышка": {
+    "hash": "e3fab1c7ba38e7ad52e26af5dbe0763676e27de264e0d2a5ead37444c566cf37",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "518e9c4f558c33385fd5e16aad2db666d26eba97bffd5555d37210547c1de839",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_2_blacklist_Пустышка": {
+    "hash": "f2a5164acced08f527f6b0d3ac23510aab3a230bc44a20283d2e55f1389d5418",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "056edbf27cf794a96f12ddfcd76de7af910735a7f51aa8715f9d96f1ad7d1edd",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_3_blacklist_Пустышка": {
+    "hash": "14c50de5a6b915c1a6916defd602660edc5a81b1f1b3b29bdc7466226c962bc3",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "bd36f89a19e6048d2eb0ca718a9a1e258959092e27bc50371771a57bd5cea21c",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_4_blacklist_Пустышка": {
+    "hash": "e61f9cbbfefa3156c8d5112bd1cecd75afc0da3681f9aac8f61bd5bb47237536",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "483beabebb383a7e2c901540d4c6f9cf2b0c5571da104fafe34946a01d66a542",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_4_maxcopy_5_blacklist_Пустышка": {
+    "hash": "b49dcdfc47792a0596238fe2b8ffe8d1b719c23366c9ebcdd3f7e23857bf3cc7",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "2ed5b565517831698248ff76fef795d86f9e1b7689350053de7ff98e5a12385b",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_1_blacklist_Пустышка": {
+    "hash": "b568fa3b726f0d84ad62e94e3fc046b068ea786259a27ec20d2e1acc0f27e680",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "94bd2891e0902cec4a5b723c30f8dd97bc27751ec3087535ee92dc547350b0ae",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_2_blacklist_Пустышка": {
+    "hash": "7d1d7569ab83337c3cd3c34afbb2af534c2a74cadc0736b58db016257e222057",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "269c283de9c3c585e17345905b1ebf19c253c634e3261cb617fc97f65f37456d",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_3_blacklist_Пустышка": {
+    "hash": "58ebbdf73ad77e7f09e07ef23ea5af8cda362a982e709888ef5c2b7ce78ca8c6",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "9033438a5a11f28bf0f141eaf2d6c19b46155b17e93654b0e9ba85983846364b",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_4_blacklist_Пустышка": {
+    "hash": "3debf97707ac3eb92b03142f5f11c57e029c02423d816d85de50bebfaab69bed",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "55f3174d3377b880af64e4388ee9cdb4f122701cc1032e34ee7e601ee6d8c517",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_5_maxcopy_5_blacklist_Пустышка": {
+    "hash": "e751b16b273c4071c6ce39cb1291420fb5fa7793a72067d8f6873e79f188cacc",
+    "maxima": {
+      "slots": 0.0,
+      "rad": 0.0,
+      "food": 0.0,
+      "water": 0.0,
+      "temp": 0.0,
+      "jump": 0.0,
+      "stamina": 0.0,
+      "defence": 0.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 0.0,
+      "blood": 0.0,
+      "resilience": 0.0,
+      "health": 0.0,
+      "cut_risk": 0.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "b6ca7508cd0ac61202809a0fcc9d04577f9354c800531ef9c3820c2def36fa63",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_1_blacklist_Пустышка": {
+    "hash": "bd4c4f4373b817205bec53e0c401f3af55b681ffc305ba80f7363d1fae46827c",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "f2b6f7f7edaa1d29ff126f4daaaa952706b577f908f073b5d65d152e5d36f91d",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_2_blacklist_Пустышка": {
+    "hash": "485364f84b70a7473868d0c1212f6a082fcbb79f9ffad1bd7016df052bf1107b",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "b5aa92388e336f323bd451d3f32b10053f35caa3a2a8612095aa4b364f9721b4",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_3_blacklist_Пустышка": {
+    "hash": "781a72f789f3f4edb39a6b6d8ef9cbca30817ad227c1a4ba585b400d4ce12ab0",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "e306ac6edb69e7302592e439b968ef104d719ec23042fb9a1308eb52dac14244",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_4_blacklist_Пустышка": {
+    "hash": "3f9905f83e704ec39964fa11adf79d87837378448c79168f614841d625bcb456",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "ec8c781ecfd5255cb95ca7b3b188af1d2c5ca40c4e0620228beb3db428bbc0b7",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_6_maxcopy_5_blacklist_Пустышка": {
+    "hash": "ac99946116bdc3c3563734600a780f3d3fcef9bb667b0a5fe6ace68e06716beb",
+    "maxima": {
+      "slots": 6.0,
+      "rad": 125.0,
+      "food": 60.0,
+      "water": 90.0,
+      "temp": 40.0,
+      "jump": 8.0,
+      "stamina": 35.0,
+      "defence": 2.0,
+      "anom_defence": -20.0,
+      "bullet_defence": -3.0,
+      "blood": 120.0,
+      "resilience": 0.0,
+      "health": 21.5,
+      "cut_risk": 16.0,
+      "break_risk": 0.0
+    }
+  },
+  "slots_7_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "48afcaeda5a5031380055cdf566cdc07e3a45dc74ce2591845e5e715ff9c484a",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 130.0,
+      "food": 240.0,
+      "water": 290.0,
+      "temp": 90.0,
+      "jump": 8.0,
+      "stamina": 45.0,
+      "defence": 15.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 8.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 25.5,
+      "cut_risk": 91.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_1_blacklist_Пустышка": {
+    "hash": "1640472c278759c2ad6800e25bd72925bd1fb0ef4cb0ca14c61586e39dec8445",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 135.0,
+      "food": 240.0,
+      "water": 290.0,
+      "temp": 90.0,
+      "jump": 8.0,
+      "stamina": 45.0,
+      "defence": 15.0,
+      "anom_defence": 0.0,
+      "bullet_defence": 8.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 25.5,
+      "cut_risk": 96.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "5f12a668e6a115c524a5d75e259412283817fd7e4a8bef4a2ac769986a321e21",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 375.0,
+      "food": 320.0,
+      "water": 290.0,
+      "temp": 140.0,
+      "jump": 8.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 1.0,
+      "bullet_defence": 13.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 27.5,
+      "cut_risk": 116.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_2_blacklist_Пустышка": {
+    "hash": "8896a29e15c707c2b79c581b72567a1b4dc36543f0e21040af197d5008fda4f1",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 375.0,
+      "food": 320.0,
+      "water": 290.0,
+      "temp": 140.0,
+      "jump": 8.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 1.0,
+      "bullet_defence": 13.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 27.5,
+      "cut_risk": 116.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "f751ece5ac3ef34350e7c57329551752d02751d1f18b9802bca3f4e4d7ff6745",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 375.0,
+      "food": 320.0,
+      "water": 290.0,
+      "temp": 140.0,
+      "jump": 8.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 1.0,
+      "bullet_defence": 13.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 27.5,
+      "cut_risk": 116.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_3_blacklist_Пустышка": {
+    "hash": "1a5ed1c495eeb5a88360e53a369574b6fddbe3a8fb4135f203f0c274e10edc94",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 375.0,
+      "food": 320.0,
+      "water": 290.0,
+      "temp": 140.0,
+      "jump": 8.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 1.0,
+      "bullet_defence": 13.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 27.5,
+      "cut_risk": 116.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "b86305afd564b385959901528b89bdbf7a5d219445e64660370aa80138d8beab",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 375.0,
+      "food": 320.0,
+      "water": 290.0,
+      "temp": 140.0,
+      "jump": 8.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 1.0,
+      "bullet_defence": 13.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 27.5,
+      "cut_risk": 116.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_4_blacklist_Пустышка": {
+    "hash": "66bd7b9eef022d8219a4f056b6da7766172ec1b9b0fb986315b2653c4ac30823",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 375.0,
+      "food": 320.0,
+      "water": 290.0,
+      "temp": 140.0,
+      "jump": 8.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 1.0,
+      "bullet_defence": 13.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 27.5,
+      "cut_risk": 116.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "e2af4177449d6889abeac50c3855c4112f114aa5d2b4f646bce88803bc984d7b",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 375.0,
+      "food": 320.0,
+      "water": 290.0,
+      "temp": 140.0,
+      "jump": 8.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 1.0,
+      "bullet_defence": 13.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 27.5,
+      "cut_risk": 116.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_7_maxcopy_5_blacklist_Пустышка": {
+    "hash": "b787247e8cde0d52f6b7ecc5006467d162ff5d4f8d15822625e43f6a66ec997c",
+    "maxima": {
+      "slots": 7.0,
+      "rad": 375.0,
+      "food": 320.0,
+      "water": 290.0,
+      "temp": 140.0,
+      "jump": 8.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 1.0,
+      "bullet_defence": 13.0,
+      "blood": 370.0,
+      "resilience": 150.0,
+      "health": 27.5,
+      "cut_risk": 116.0,
+      "break_risk": 90.0
+    }
+  },
+  "slots_8_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "ac281241de45611d36647e8b9dba0b5a21e74eeaa2176633706939473b4437fa",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 285.0,
+      "food": 355.0,
+      "water": 375.0,
+      "temp": 135.0,
+      "jump": 9.0,
+      "stamina": 50.0,
+      "defence": 25.0,
+      "anom_defence": 6.0,
+      "bullet_defence": 13.0,
+      "blood": 425.0,
+      "resilience": 150.0,
+      "health": 28.5,
+      "cut_risk": 106.0,
+      "break_risk": 170.0
+    }
+  },
+  "slots_8_maxcopy_1_blacklist_Пустышка": {
+    "hash": "bca3ab744a82f2c82cbf482ad0e498d1a1459360e1b9e045d7ddb59ad0cd791c",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 295.0,
+      "food": 355.0,
+      "water": 375.0,
+      "temp": 135.0,
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 25.0,
+      "anom_defence": 6.0,
+      "bullet_defence": 19.0,
+      "blood": 425.0,
+      "resilience": 150.0,
+      "health": 29.7,
+      "cut_risk": 106.0,
+      "break_risk": 170.0
+    }
+  },
+  "slots_8_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "31bcd6d224a74783655ae111ab8507d2d882bf68b37093c4f9d49f653d20f1de",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 440.0,
+      "food": 530.0,
+      "water": 490.0,
+      "temp": 215.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 27.0,
+      "anom_defence": 11.0,
+      "bullet_defence": 18.0,
+      "blood": 495.0,
+      "resilience": 300.0,
+      "health": 31.9,
+      "cut_risk": 147.0,
+      "break_risk": 180.0
+    }
+  },
+  "slots_8_maxcopy_2_blacklist_Пустышка": {
+    "hash": "e855099ba98df3d5fcfe61fa978df8189dd0128cf6a66d11eb165c1c37dfdfd3",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 440.0,
+      "food": 530.0,
+      "water": 490.0,
+      "temp": 215.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 27.0,
+      "anom_defence": 11.0,
+      "bullet_defence": 20.0,
+      "blood": 495.0,
+      "resilience": 300.0,
+      "health": 31.9,
+      "cut_risk": 152.0,
+      "break_risk": 180.0
+    }
+  },
+  "slots_8_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "98888634c3720ce8bcbdcc70d4ab0ffd1560c9d779398cf5367e86af5c122cec",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 625.0,
+      "food": 560.0,
+      "water": 500.0,
+      "temp": 215.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 27.0,
+      "anom_defence": 11.0,
+      "bullet_defence": 18.0,
+      "blood": 495.0,
+      "resilience": 300.0,
+      "health": 31.9,
+      "cut_risk": 147.0,
+      "break_risk": 180.0
+    }
+  },
+  "slots_8_maxcopy_3_blacklist_Пустышка": {
+    "hash": "36797171e2efdcb5424526a8ee3ff0ec811dad1fbf9b5d4977d721c04b588701",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 625.0,
+      "food": 560.0,
+      "water": 500.0,
+      "temp": 215.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 27.0,
+      "anom_defence": 11.0,
+      "bullet_defence": 20.0,
+      "blood": 495.0,
+      "resilience": 300.0,
+      "health": 31.9,
+      "cut_risk": 152.0,
+      "break_risk": 180.0
+    }
+  },
+  "slots_8_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "c3680cc1982600bc4eced75393897a7dad390e55a3bf486a70a8d0c14eea9edc",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 625.0,
+      "food": 560.0,
+      "water": 500.0,
+      "temp": 215.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 27.0,
+      "anom_defence": 11.0,
+      "bullet_defence": 18.0,
+      "blood": 495.0,
+      "resilience": 300.0,
+      "health": 31.9,
+      "cut_risk": 147.0,
+      "break_risk": 180.0
+    }
+  },
+  "slots_8_maxcopy_4_blacklist_Пустышка": {
+    "hash": "7de3479f5e7500900bb8f627eadeb2581cb34a38fc04cb73857a9528fb5bab11",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 625.0,
+      "food": 560.0,
+      "water": 500.0,
+      "temp": 215.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 27.0,
+      "anom_defence": 11.0,
+      "bullet_defence": 20.0,
+      "blood": 495.0,
+      "resilience": 300.0,
+      "health": 31.9,
+      "cut_risk": 152.0,
+      "break_risk": 180.0
+    }
+  },
+  "slots_8_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "d98ad72638618157c1c99e23b3ab7738f45f14777d352abb39f35a15aabd3574",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 625.0,
+      "food": 560.0,
+      "water": 500.0,
+      "temp": 215.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 27.0,
+      "anom_defence": 11.0,
+      "bullet_defence": 18.0,
+      "blood": 495.0,
+      "resilience": 300.0,
+      "health": 31.9,
+      "cut_risk": 147.0,
+      "break_risk": 180.0
+    }
+  },
+  "slots_8_maxcopy_5_blacklist_Пустышка": {
+    "hash": "591ea79d8020fbfe1e36ea075fb09c076034bc6f494cadd81432f795c8c19849",
+    "maxima": {
+      "slots": 8.0,
+      "rad": 625.0,
+      "food": 560.0,
+      "water": 500.0,
+      "temp": 215.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 27.0,
+      "anom_defence": 11.0,
+      "bullet_defence": 20.0,
+      "blood": 495.0,
+      "resilience": 300.0,
+      "health": 31.9,
+      "cut_risk": 152.0,
+      "break_risk": 180.0
+    }
+  },
+  "slots_9_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "23dc9c3a86720264ce33f86101977a631d8a8f05fc81af3d7f7d3b86ab966ca6",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 430.0,
+      "food": 635.0,
+      "water": 580.0,
+      "temp": 195.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 25.0,
+      "anom_defence": 18.0,
+      "bullet_defence": 17.0,
+      "blood": 475.0,
+      "resilience": 220.0,
+      "health": 30.9,
+      "cut_risk": 180.0,
+      "break_risk": 190.0
+    }
+  },
+  "slots_9_maxcopy_1_blacklist_Пустышка": {
+    "hash": "38daa2dcaf19101dd08d35ec26e99d1f003cdd89e17dd889d4bc5fb0dabacece",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 435.0,
+      "food": 635.0,
+      "water": 580.0,
+      "temp": 195.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 25.0,
+      "anom_defence": 19.0,
+      "bullet_defence": 20.0,
+      "blood": 475.0,
+      "resilience": 220.0,
+      "health": 30.9,
+      "cut_risk": 180.0,
+      "break_risk": 190.0
+    }
+  },
+  "slots_9_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "7c1606e97c1a677662f2d2da1a4c1c1e0f6e5d98c0d042149e6cf4d60ab99003",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 690.0,
+      "food": 705.0,
+      "water": 700.0,
+      "temp": 260.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 34.0,
+      "anom_defence": 26.0,
+      "bullet_defence": 21.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 37.9,
+      "cut_risk": 226.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_9_maxcopy_2_blacklist_Пустышка": {
+    "hash": "17ba02fb4fb7845f24eb3e4400d984f0d958bf1f5d6b9ab132b488d204ed2cd0",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 690.0,
+      "food": 705.0,
+      "water": 700.0,
+      "temp": 260.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 34.0,
+      "anom_defence": 26.0,
+      "bullet_defence": 25.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 37.9,
+      "cut_risk": 226.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_9_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "dab1512d52b1060a7058e8c948d0ee165178d9dffdcccc0b510a72f2337ace47",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 690.0,
+      "food": 740.0,
+      "water": 700.0,
+      "temp": 265.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 36.0,
+      "anom_defence": 26.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 39.9,
+      "cut_risk": 226.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_9_maxcopy_3_blacklist_Пустышка": {
+    "hash": "2079f2cbc60172f342b2a0caa64617669a3cdc8d8ddec405c01e229197b48cf8",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 690.0,
+      "food": 740.0,
+      "water": 700.0,
+      "temp": 265.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 36.0,
+      "anom_defence": 26.0,
+      "bullet_defence": 26.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 39.9,
+      "cut_risk": 226.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_9_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "1aa99fbc8d6dea09ce1261d4d01bdd7958a1914912e9775c1ce14b91d604da74",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 690.0,
+      "food": 740.0,
+      "water": 700.0,
+      "temp": 265.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 36.0,
+      "anom_defence": 26.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 39.9,
+      "cut_risk": 226.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_9_maxcopy_4_blacklist_Пустышка": {
+    "hash": "100915e2fc9f10906ff300c1a09896005a373992ee775eb71188e6553ae2ec42",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 690.0,
+      "food": 740.0,
+      "water": 700.0,
+      "temp": 265.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 36.0,
+      "anom_defence": 26.0,
+      "bullet_defence": 27.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 39.9,
+      "cut_risk": 226.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_9_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "458cc934ad8e480deaf8cf8255d06711aa6dea0cf09a6efab3cebf5caaf3fe08",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 690.0,
+      "food": 740.0,
+      "water": 700.0,
+      "temp": 265.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 36.0,
+      "anom_defence": 26.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 39.9,
+      "cut_risk": 226.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_9_maxcopy_5_blacklist_Пустышка": {
+    "hash": "6b5df59c33290b174a8d90d7c6732bbfef34ec2cf620781d2d28e3d02d94719e",
+    "maxima": {
+      "slots": 9.0,
+      "rad": 690.0,
+      "food": 740.0,
+      "water": 700.0,
+      "temp": 265.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 36.0,
+      "anom_defence": 26.0,
+      "bullet_defence": 27.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 39.9,
+      "cut_risk": 226.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_10_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "965fc4447c46c490c6f80ef7e120fb9e21d9c970866b2ce5384a48ece16ff459",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 540.0,
+      "food": 785.0,
+      "water": 780.0,
+      "temp": 195.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 31.0,
+      "anom_defence": 25.0,
+      "bullet_defence": 18.0,
+      "blood": 495.0,
+      "resilience": 240.0,
+      "health": 36.9,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_10_maxcopy_1_blacklist_Пустышка": {
+    "hash": "1c883911721b3e84385ae6adbaa2854129c69a7831512ff619721758fb687149",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 540.0,
+      "food": 785.0,
+      "water": 780.0,
+      "temp": 195.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 31.0,
+      "anom_defence": 25.0,
+      "bullet_defence": 24.0,
+      "blood": 495.0,
+      "resilience": 240.0,
+      "health": 36.9,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_10_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "248c8f44e6416c5aa6d2e2045b672ce81d909bdc15d7eb1a608b1d89e9dede2e",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 850.0,
+      "food": 885.0,
+      "water": 900.0,
+      "temp": 300.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 44.0,
+      "anom_defence": 41.0,
+      "bullet_defence": 26.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 43.9,
+      "cut_risk": 276.0,
+      "break_risk": 290.0
+    }
+  },
+  "slots_10_maxcopy_2_blacklist_Пустышка": {
+    "hash": "83fb9e11b8700f461a15be00a8244952a822e1afce8de63f79e1fa16430cd825",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 850.0,
+      "food": 885.0,
+      "water": 900.0,
+      "temp": 300.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 44.0,
+      "anom_defence": 41.0,
+      "bullet_defence": 28.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 43.9,
+      "cut_risk": 276.0,
+      "break_risk": 290.0
+    }
+  },
+  "slots_10_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "e23468b5c6adb8bda10821d3865cf17a9f2f41d88ee9b8c338235341e658dee4",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 940.0,
+      "food": 905.0,
+      "water": 910.0,
+      "temp": 310.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 46.0,
+      "anom_defence": 41.0,
+      "bullet_defence": 26.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 45.5,
+      "cut_risk": 296.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_10_maxcopy_3_blacklist_Пустышка": {
+    "hash": "a453436dc7a4077d90341bba3d62a1d0e146bf87d4ddd8fc445d2cf70372d09b",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 940.0,
+      "food": 905.0,
+      "water": 910.0,
+      "temp": 310.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 46.0,
+      "anom_defence": 41.0,
+      "bullet_defence": 31.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 45.5,
+      "cut_risk": 296.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_10_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "67731bd97780cb439ba00a03209aa71eae8293b55d25fdfabca0f1f10e129cd4",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 940.0,
+      "food": 905.0,
+      "water": 910.0,
+      "temp": 315.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 48.0,
+      "anom_defence": 41.0,
+      "bullet_defence": 26.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 45.5,
+      "cut_risk": 296.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_10_maxcopy_4_blacklist_Пустышка": {
+    "hash": "753a8334f330e939ab898d697721e296e4771635ca3e9c1b49b4d4bd841dbbbf",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 940.0,
+      "food": 905.0,
+      "water": 910.0,
+      "temp": 315.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 48.0,
+      "anom_defence": 41.0,
+      "bullet_defence": 32.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 45.5,
+      "cut_risk": 296.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_10_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "8b5ef92d0c2dd707b15cc60e22560b239af669d9ee140784fd03ce840de4d009",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 940.0,
+      "food": 905.0,
+      "water": 910.0,
+      "temp": 315.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 48.0,
+      "anom_defence": 41.0,
+      "bullet_defence": 28.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 45.5,
+      "cut_risk": 296.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_10_maxcopy_5_blacklist_Пустышка": {
+    "hash": "67464d2d2e8106c8f02616db4734bf74f379a193a8c889b990bf800773377d5b",
+    "maxima": {
+      "slots": 10.0,
+      "rad": 940.0,
+      "food": 905.0,
+      "water": 910.0,
+      "temp": 315.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 48.0,
+      "anom_defence": 41.0,
+      "bullet_defence": 33.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 45.5,
+      "cut_risk": 296.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_11_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "ddbe0de2fef980704d432ce8f1faeaff49b684c08dae78ddc41c2a5451a62a77",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 550.0,
+      "food": 785.0,
+      "water": 810.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 35.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 18.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 41.9,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_11_maxcopy_1_blacklist_Пустышка": {
+    "hash": "2d2111b51c216ccdb5cb82b6fef7e88206c6e9b8ed479c78f5a43261305cfd6c",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 550.0,
+      "food": 785.0,
+      "water": 810.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 35.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 24.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 41.9,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_11_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "391ea9e72984e49a45fca7f5d7115c159dbc635eea0ff549c28139ebfe3eb109",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 995.0,
+      "food": 1045.0,
+      "water": 1100.0,
+      "temp": 330.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 49.0,
+      "anom_defence": 49.0,
+      "bullet_defence": 30.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 49.5,
+      "cut_risk": 297.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_11_maxcopy_2_blacklist_Пустышка": {
+    "hash": "76625ccdc73dec614e4059693b43afb812c1c2de77750f57745a5d86dd06f9f9",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 995.0,
+      "food": 1045.0,
+      "water": 1100.0,
+      "temp": 330.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 49.0,
+      "anom_defence": 49.0,
+      "bullet_defence": 33.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 49.5,
+      "cut_risk": 297.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_11_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "f14ef95f69efc16b1616d36ea0b8462b82b59dc460e12379a1c5c4d040af007c",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 995.0,
+      "food": 1065.0,
+      "water": 1100.0,
+      "temp": 355.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 56.0,
+      "bullet_defence": 31.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 49.5,
+      "cut_risk": 297.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_11_maxcopy_3_blacklist_Пустышка": {
+    "hash": "e8eea7d26cd2bbd0e1963ae9533cdc28df6c92dd98c42b7baa5457cdd960c730",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 995.0,
+      "food": 1065.0,
+      "water": 1100.0,
+      "temp": 355.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 56.0,
+      "bullet_defence": 34.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 49.5,
+      "cut_risk": 297.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_11_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "1585bed85204021b18329e80947a977074ad80e82b5d2ee95a579c995029cab3",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 1000.0,
+      "food": 1085.0,
+      "water": 1100.0,
+      "temp": 360.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 56.0,
+      "bullet_defence": 31.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 49.5,
+      "cut_risk": 297.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_11_maxcopy_4_blacklist_Пустышка": {
+    "hash": "6dc5a50e0908a085f40010166bc3d820c59595209c26edae02ecf3efae428301",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 1000.0,
+      "food": 1085.0,
+      "water": 1100.0,
+      "temp": 360.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 56.0,
+      "bullet_defence": 35.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 49.5,
+      "cut_risk": 297.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_11_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "47f85f0245b352cee346caf5d31b3ea0b5932d487a5fd85663544c476c947ccc",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 1000.0,
+      "food": 1085.0,
+      "water": 1100.0,
+      "temp": 365.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 56.0,
+      "bullet_defence": 31.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 49.5,
+      "cut_risk": 297.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_11_maxcopy_5_blacklist_Пустышка": {
+    "hash": "6bf9519edeb032d5c13f4fdb6c4d1ad3a2a8889bf5c955877f45757ffe625cbb",
+    "maxima": {
+      "slots": 11.0,
+      "rad": 1000.0,
+      "food": 1085.0,
+      "water": 1100.0,
+      "temp": 365.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 56.0,
+      "bullet_defence": 36.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 49.5,
+      "cut_risk": 297.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_12_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "8b78bd32f203a2efa8e13ea2c607ce532cbb5ca4e8d0345aa80eab1db03cef1a",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 540.0,
+      "food": 815.0,
+      "water": 830.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 18.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 45.4,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_12_maxcopy_1_blacklist_Пустышка": {
+    "hash": "149707b596771b54890ef38bbbb0dc91375f66e697286eabcd054f13dc381f9e",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 550.0,
+      "food": 815.0,
+      "water": 830.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 24.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 46.1,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_12_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "942b622be831273b0a1ec1261fc74f6416e8dafe4db19b8374bf2c0bb6a3397a",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 1000.0,
+      "food": 1125.0,
+      "water": 1280.0,
+      "temp": 360.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 53.0,
+      "bullet_defence": 33.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_12_maxcopy_2_blacklist_Пустышка": {
+    "hash": "de26e438f3098746a647d0ddade48688838c6a4570e03ccd0f92799cf30eb0f6",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 1000.0,
+      "food": 1125.0,
+      "water": 1280.0,
+      "temp": 360.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 53.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_12_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "c3f601f97cf7930505d1377c819e2b4b9fe67153676267de85095e6a647ab99e",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 1000.0,
+      "food": 1155.0,
+      "water": 1280.0,
+      "temp": 395.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 64.0,
+      "bullet_defence": 34.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_12_maxcopy_3_blacklist_Пустышка": {
+    "hash": "080ae4aefbd0af2929520beb2d277d1921238e15defa09415510bd889ecf9837",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 1000.0,
+      "food": 1155.0,
+      "water": 1280.0,
+      "temp": 395.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 64.0,
+      "bullet_defence": 39.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_12_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "a2971147c0b24f78541a2ba58ea2b4b201e97e9eb6b3c7ce19902c8fbdf048b1",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 1000.0,
+      "food": 1175.0,
+      "water": 1280.0,
+      "temp": 405.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 71.0,
+      "bullet_defence": 36.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_12_maxcopy_4_blacklist_Пустышка": {
+    "hash": "34ac8a8803e1bcc8cedc5497a3ab2281d28728ba821eaf68c4bc66bb97f88c41",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 1000.0,
+      "food": 1175.0,
+      "water": 1280.0,
+      "temp": 405.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 71.0,
+      "bullet_defence": 40.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_12_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "18d1c762c1e18e86338576d61be9eefa15ae588bd19c8b8a07fb2a9fcb4ac694",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 1000.0,
+      "food": 1175.0,
+      "water": 1280.0,
+      "temp": 410.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 71.0,
+      "bullet_defence": 36.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_12_maxcopy_5_blacklist_Пустышка": {
+    "hash": "d87b5d0bff8985f79b73f595800b4ba426cad260d9c59ee3af6cc5abf68c57ae",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 1000.0,
+      "food": 1175.0,
+      "water": 1280.0,
+      "temp": 410.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 71.0,
+      "bullet_defence": 41.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_13_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "18713a1f4c6bf211dd28495789e13a99758f35e1a421a873431f6c733f1e65a2",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 535.0,
+      "food": 795.0,
+      "water": 810.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 48.5,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_13_maxcopy_1_blacklist_Пустышка": {
+    "hash": "a99eecbfea4b64999a9f73d8e0f46f46daeff2761e0e79f05fcb347355eecf8a",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 540.0,
+      "food": 795.0,
+      "water": 810.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 49.6,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_13_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "0d7083f470c60a65bf5ae8eb1fa20c7a860ed84a4924f6c570fdf856f27871e6",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 1000.0,
+      "food": 1205.0,
+      "water": 1310.0,
+      "temp": 390.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 62.0,
+      "bullet_defence": 36.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_13_maxcopy_2_blacklist_Пустышка": {
+    "hash": "80a504c98df78fb5bd7f4edb8505b0658702885fd8184ae01546d6a591c4b4ab",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 1000.0,
+      "food": 1205.0,
+      "water": 1310.0,
+      "temp": 390.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 62.0,
+      "bullet_defence": 41.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_13_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "526bdc22a527d914ed19bfa193b04d3f61716b642a33f634c453d2feca9673b4",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 1000.0,
+      "food": 1250.0,
+      "water": 1360.0,
+      "temp": 435.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 67.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_13_maxcopy_3_blacklist_Пустышка": {
+    "hash": "08a201d790b68ee1f1c106cfbcb255e47edc3354de81e7b5b8f5f4ee1a03fff8",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 1000.0,
+      "food": 1250.0,
+      "water": 1360.0,
+      "temp": 435.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 67.0,
+      "bullet_defence": 44.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_13_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "f00869499c1424b4ab653d3a90f44ad8c42aa7c1c17355195756d696c0771e52",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 1000.0,
+      "food": 1270.0,
+      "water": 1470.0,
+      "temp": 445.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 74.0,
+      "bullet_defence": 39.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_13_maxcopy_4_blacklist_Пустышка": {
+    "hash": "4880b8b47cc7d4bdecfd5356e6c0d6afe9638e1fd1503c40dd2229edb3c86f55",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 1000.0,
+      "food": 1270.0,
+      "water": 1470.0,
+      "temp": 445.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 74.0,
+      "bullet_defence": 45.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_13_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "956cb76850ec2c8aaaf9e108d18fb87b837edaf375867c46ceac6e54f4a5e470",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 1000.0,
+      "food": 1290.0,
+      "water": 1470.0,
+      "temp": 455.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 84.0,
+      "bullet_defence": 39.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_13_maxcopy_5_blacklist_Пустышка": {
+    "hash": "f4d1f55691ec846096ff76acd5e939561d98fa95de71b149d382f46248d46dba",
+    "maxima": {
+      "slots": 13.0,
+      "rad": 1000.0,
+      "food": 1290.0,
+      "water": 1470.0,
+      "temp": 455.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 84.0,
+      "bullet_defence": 46.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_14_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "bb8ceb42babd0522916f1c5156033b4c73d8930929d366e6295fd4a2a507b5c4",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 520.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 48.9,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_14_maxcopy_1_blacklist_Пустышка": {
+    "hash": "f3e7ea5586b6bd77c8d1fe4279a583c19476c5b9c8a89913788fb483486245e3",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 530.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 49.6,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_14_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "1f350bda045e15777d1b13f32170caf3e6c8697b68cd05773aee156f6ca7823a",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 1000.0,
+      "food": 1350.0,
+      "water": 1450.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 67.0,
+      "bullet_defence": 37.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_14_maxcopy_2_blacklist_Пустышка": {
+    "hash": "90f2c50f97144ac05ac5fef09b18516c2c502c8aecf9015d33e0a92f3286ac73",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 1000.0,
+      "food": 1350.0,
+      "water": 1450.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 67.0,
+      "bullet_defence": 44.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_14_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "1a1ea77c8a7420105c6c89cc902e601129389bf5d1618d5eb17ef9068fa31540",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 1000.0,
+      "food": 1410.0,
+      "water": 1540.0,
+      "temp": 465.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 77.0,
+      "bullet_defence": 43.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_14_maxcopy_3_blacklist_Пустышка": {
+    "hash": "fd45b6a366c50f9ccf524d9e38681fae70067f5af5e13303a098dc2fe63d48b7",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 1000.0,
+      "food": 1410.0,
+      "water": 1540.0,
+      "temp": 465.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 77.0,
+      "bullet_defence": 47.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_14_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "f10c839f879fabb8991dde2f68a28afc7e1d0c783dbf9ae7f400e075c0e58c2b",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 1000.0,
+      "food": 1430.0,
+      "water": 1570.0,
+      "temp": 485.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 82.0,
+      "bullet_defence": 43.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_14_maxcopy_4_blacklist_Пустышка": {
+    "hash": "d4d84928cdce9c9014e2536bbb40357a0e86a7a0664bb89eb80cfc735501d8e8",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 1000.0,
+      "food": 1430.0,
+      "water": 1570.0,
+      "temp": 485.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 82.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_14_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "65ab95ad7feef966a2da14bdf97534775edafffc440c458f603a56a710da77ce",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 1000.0,
+      "food": 1450.0,
+      "water": 1670.0,
+      "temp": 495.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 88.0,
+      "bullet_defence": 44.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_14_maxcopy_5_blacklist_Пустышка": {
+    "hash": "dbe858a2cbef2f670175b1852c3f3975121997674f199f5ba99dac847b4353da",
+    "maxima": {
+      "slots": 14.0,
+      "rad": 1000.0,
+      "food": 1450.0,
+      "water": 1670.0,
+      "temp": 495.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 88.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_15_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "802452d79ed9256ab879abc3c771c143e2b68923ec1e2b97d86f4b7ad95f5c3e",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 505.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 48.9,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_15_maxcopy_1_blacklist_Пустышка": {
+    "hash": "29c7129ce705fcbe56b9d6c6f83fb54accae155321eecaa8787a7da69363ecc5",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 515.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_15_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "d2a3d8eb98810534f23ef991e64ee051db3252022dd62d8a378bf3724d1d7e29",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 1000.0,
+      "food": 1445.0,
+      "water": 1550.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_15_maxcopy_2_blacklist_Пустышка": {
+    "hash": "f7a1dc5d2265568d0a92706bd5d50a67d665e0f0e24cfbe5c74262dc5715d3a8",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 1000.0,
+      "food": 1445.0,
+      "water": 1550.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 48.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_15_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "90afae538d757e76454661ca9109f47e57cd3ff93a39d9b38031bba463e2dc07",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 1000.0,
+      "food": 1530.0,
+      "water": 1690.0,
+      "temp": 495.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 86.0,
+      "bullet_defence": 47.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_15_maxcopy_3_blacklist_Пустышка": {
+    "hash": "6be77e651ce96e20aa82c2083e321f62f50acaf484dd0579ea1b4aa1b76397a1",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 1000.0,
+      "food": 1530.0,
+      "water": 1690.0,
+      "temp": 495.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 86.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_15_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "ce1ca15c3d74cb97a4d25dc598ae46c02b30d191ed2434de24955afe99ddb59b",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 1000.0,
+      "food": 1590.0,
+      "water": 1770.0,
+      "temp": 525.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 92.0,
+      "bullet_defence": 48.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_15_maxcopy_4_blacklist_Пустышка": {
+    "hash": "4df89e762d2551810e5e616ebafc6bafbf66e2354c61c24e000ea68b513770e8",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 1000.0,
+      "food": 1590.0,
+      "water": 1770.0,
+      "temp": 525.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 92.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_15_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "2cec63d6457aa725ff990a5dba67f61fcb640c381e889b5ee331b87c951cc8f6",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 1000.0,
+      "food": 1610.0,
+      "water": 1770.0,
+      "temp": 535.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 97.0,
+      "bullet_defence": 48.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_15_maxcopy_5_blacklist_Пустышка": {
+    "hash": "b40f459beacf9bc997a9afed669e1f86b0623643004d8ee3f76b71c98d66f9e5",
+    "maxima": {
+      "slots": 15.0,
+      "rad": 1000.0,
+      "food": 1610.0,
+      "water": 1770.0,
+      "temp": 535.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 97.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_16_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "9d3989046c11daa710e84dc098f5d3c37235ed14ffeccf1a5e7261c61cda2e5b",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 485.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 48.9,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_16_maxcopy_1_blacklist_Пустышка": {
+    "hash": "9e504afabd5f8536b5d6520c1bad58c6551b5e2139b249448aec9daf5417f0c8",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 495.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_16_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "ae9480473824177a6cf5d0bc9c7cef51d3cba5c39dda01ce8f6b23767c183f77",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 1000.0,
+      "food": 1495.0,
+      "water": 1560.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_16_maxcopy_2_blacklist_Пустышка": {
+    "hash": "0877b5cefb21b082d67ef571fa575c701b7c8c736b7d4d234399b0ac9783cf93",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 1000.0,
+      "food": 1495.0,
+      "water": 1560.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 49.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_16_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "21793155faea0b9ca9a9df0d4ca5b99ee9201e3685242ed6027960499e4b2ff0",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 1000.0,
+      "food": 1660.0,
+      "water": 1840.0,
+      "temp": 525.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 91.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_16_maxcopy_3_blacklist_Пустышка": {
+    "hash": "706dbca2135ec8790e26a0b5630c4180e83c3b0ab988a0c751832b7dc7b1c140",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 1000.0,
+      "food": 1660.0,
+      "water": 1840.0,
+      "temp": 525.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 91.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_16_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "5dc1dd8aff89e28e2b5d3464618cb1e4ce0188807f2622966f30a37746e24e54",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 1000.0,
+      "food": 1710.0,
+      "water": 1920.0,
+      "temp": 555.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_16_maxcopy_4_blacklist_Пустышка": {
+    "hash": "c26e53bbc5167123886acc8d6c980f1838a131c870124ea19e081c6ee96b08d5",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 1000.0,
+      "food": 1710.0,
+      "water": 1920.0,
+      "temp": 555.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_16_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "683f6330ad937cf268b241cf084c6dd150e8b390bc51307974caeb0c44f0b234",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 1000.0,
+      "food": 1760.0,
+      "water": 1970.0,
+      "temp": 575.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 107.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_16_maxcopy_5_blacklist_Пустышка": {
+    "hash": "8f9efa43c8e0d9fb38e7029a1504d74d529aa539c02236f9bae54d8fd98d3746",
+    "maxima": {
+      "slots": 16.0,
+      "rad": 1000.0,
+      "food": 1760.0,
+      "water": 1970.0,
+      "temp": 575.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 107.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_17_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "a56d9872b377c85792ca55803fc0b5bd5c0f8962bb157ae3779bba8ab637518b",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 465.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_17_maxcopy_1_blacklist_Пустышка": {
+    "hash": "ac97d3afab8ab126e47ce7dcbcac44bde49a6e4247dce7a3ae86f44934a6c613",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 475.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_17_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "4e4c98d8ff9826c90771155f2cb30a4a2b60fba58579713432387b47edb21599",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 1000.0,
+      "food": 1545.0,
+      "water": 1580.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_17_maxcopy_2_blacklist_Пустышка": {
+    "hash": "458032d67e19dc0a12fcecc809db0851b7d5174460283924a4987864a2db8d16",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 1000.0,
+      "food": 1545.0,
+      "water": 1580.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_17_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "fcd96e23cd688cb6fd4e26a8eaf4c28de90e36ea3fb46db11d01dd6c015c266b",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 1000.0,
+      "food": 1785.0,
+      "water": 1980.0,
+      "temp": 555.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 96.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_17_maxcopy_3_blacklist_Пустышка": {
+    "hash": "386de466c4c39217181994205a39dbb10a4d355bf8690ff5b8333c6fe8e2f53f",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 1000.0,
+      "food": 1785.0,
+      "water": 1980.0,
+      "temp": 555.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 96.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_17_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "87bff4d296147fb9ae5d5c1b6ba3f3a1779694e07b5a62e1a2259d9dea9c8721",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 1000.0,
+      "food": 1845.0,
+      "water": 2070.0,
+      "temp": 590.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 110.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_17_maxcopy_4_blacklist_Пустышка": {
+    "hash": "df1e0ade5583120d612cb383222febd5a758be0bf498972ebbdabfb099392d30",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 1000.0,
+      "food": 1845.0,
+      "water": 2070.0,
+      "temp": 590.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 110.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_17_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "b636ec84978c73803c5ed70653bbbe742ab4d5c6dd367771debdf4d789a0e6c9",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 1000.0,
+      "food": 1880.0,
+      "water": 2150.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 117.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_17_maxcopy_5_blacklist_Пустышка": {
+    "hash": "612fa4920ab60eb9693f67a9b56fb27c1c26b6870d5f9fe66f023feeb6d591d4",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 1000.0,
+      "food": 1880.0,
+      "water": 2150.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 117.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_18_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "8804ba78cfe80cbcbdf18ba51201cfb3a78426ea7605004d215f87c21a4ea776",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 440.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_18_maxcopy_1_blacklist_Пустышка": {
+    "hash": "14acf327d6ef7a57ba3db2488051aa896c48fb4320afbdef3d5d918076e8282a",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 450.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_18_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "dee3fdb009cfbebe8b55693a8a8688268eb274b0a9b21864072777bb35305281",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 1000.0,
+      "food": 1545.0,
+      "water": 1610.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_18_maxcopy_2_blacklist_Пустышка": {
+    "hash": "36ccd2ad73ef958ef65c3d7638458f82b6687a193168e41c3e1de7fd12f4d8fa",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 1000.0,
+      "food": 1545.0,
+      "water": 1610.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_18_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "154f4b9302b46a2889aed0493c2bb25c72b1e29544492cff43b8a6972c4c4334",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 1000.0,
+      "food": 1905.0,
+      "water": 2100.0,
+      "temp": 585.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 101.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_18_maxcopy_3_blacklist_Пустышка": {
+    "hash": "d2169f68cbb53a74f52f3211f09da43139fbb884d1c93100ce570675dbaaaa24",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 1000.0,
+      "food": 1905.0,
+      "water": 2100.0,
+      "temp": 585.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 101.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_18_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "f508def0238f9cc560f888b99278e33bc6c868033a36d677e5c5377a9a3c0476",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 1000.0,
+      "food": 1975.0,
+      "water": 2210.0,
+      "temp": 630.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 116.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_18_maxcopy_4_blacklist_Пустышка": {
+    "hash": "43d4fe4b43b0bbd3eb65d7badd407849079e88bc45684166632002ec712082b3",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 1000.0,
+      "food": 1975.0,
+      "water": 2210.0,
+      "temp": 630.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 116.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_18_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "6dbec7c3e35323315fe5e15b74e7168fa141a18cb055f0a3c518136ba89b7b1c",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 1000.0,
+      "food": 2025.0,
+      "water": 2290.0,
+      "temp": 645.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 127.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_18_maxcopy_5_blacklist_Пустышка": {
+    "hash": "2cc8ba391f4b79bfe32799a22dc89a12e81a06fa354e57f0067ab1c4d6044f3b",
+    "maxima": {
+      "slots": 18.0,
+      "rad": 1000.0,
+      "food": 2025.0,
+      "water": 2290.0,
+      "temp": 645.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 127.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_19_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "8a2928c6153187cfac3265323d173bc50b1b0151f710964070328d80683b36d1",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 415.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_19_maxcopy_1_blacklist_Пустышка": {
+    "hash": "1f486e313cd61ffff1c69158cae17df775f685a4657bc4aa2ddab07be362d74e",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 425.0,
+      "food": 790.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_19_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "add1f0fa60e9a369bd89c586db6ca9c4b85ef2fb97fc3a5fce3e8b70ac66de25",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 1000.0,
+      "food": 1575.0,
+      "water": 1610.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_19_maxcopy_2_blacklist_Пустышка": {
+    "hash": "cf30dc91b63c25f4afb3e2b6f330b2d8ce92eef4b4c27a39230c118d3d2fa65c",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 1000.0,
+      "food": 1575.0,
+      "water": 1610.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_19_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "18c064f934c596edf62ef0c8d9a9fc21331990596cc638b17ca8efd89ddcad46",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 1000.0,
+      "food": 1955.0,
+      "water": 2180.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_19_maxcopy_3_blacklist_Пустышка": {
+    "hash": "aa1c52c05be684ba9cb4a3e89b38e594a0809fa60243493c3d630ffe5ae7259d",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 1000.0,
+      "food": 1955.0,
+      "water": 2180.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_19_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "906cc6f6af666dc59545daf68c639bf0654f816e8ef7fedd46535a9b4f841cc6",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 1000.0,
+      "food": 2095.0,
+      "water": 2360.0,
+      "temp": 660.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 121.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_19_maxcopy_4_blacklist_Пустышка": {
+    "hash": "aae9ada7fd226f756771afee46d840d18913d985d08ed20814abf4e74e07a1cd",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 1000.0,
+      "food": 2095.0,
+      "water": 2360.0,
+      "temp": 660.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 121.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_19_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "b3bcaa3744279d2a8cde814c5b542326f21f1788d070266c4bd07ac139da8f8b",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 1000.0,
+      "food": 2165.0,
+      "water": 2440.0,
+      "temp": 680.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 135.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_19_maxcopy_5_blacklist_Пустышка": {
+    "hash": "019b1956c60f2bb6b2429607a09cbbbe3d1cdd5790298f2df8247ad141afd157",
+    "maxima": {
+      "slots": 19.0,
+      "rad": 1000.0,
+      "food": 2165.0,
+      "water": 2440.0,
+      "temp": 680.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 135.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_20_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "6957e6e7e2be19e96fde0a83b8bc0497393d45d51dab5fbd02eca32c40609f51",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 390.0,
+      "food": 765.0,
+      "water": 800.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 32.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_20_maxcopy_1_blacklist_Пустышка": {
+    "hash": "eb24790fba3d00d4c69405f398aaa730cf339da5f996f8c80edba0c8fb08c0ba",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 400.0,
+      "food": 765.0,
+      "water": 805.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 33.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_20_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "3352dd259c792aea6755002cae80ec532eb04a77e029f746bbbe377762227c18",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 1000.0,
+      "food": 1600.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_20_maxcopy_2_blacklist_Пустышка": {
+    "hash": "20dca328ba28e972369f2fdfbcb9c3b7bde0953b0202744af8563069c768c270",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 1000.0,
+      "food": 1600.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_20_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "5c034f875044f8608dec2433b0d3f2fb18c91cdc3cdfcde38a3b12089158302c",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 1000.0,
+      "food": 2030.0,
+      "water": 2200.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_20_maxcopy_3_blacklist_Пустышка": {
+    "hash": "8f8b4174e03dbb07e1cdf7af7c87ecb01c9e8fdd7cc71a6d1455cdea2de43da0",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 1000.0,
+      "food": 2030.0,
+      "water": 2200.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_20_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "e41f884dfda16cf560d9943df47aa0dbb7b4036b39f43f65cfaba95f75177e26",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 1000.0,
+      "food": 2145.0,
+      "water": 2510.0,
+      "temp": 690.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 126.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_20_maxcopy_4_blacklist_Пустышка": {
+    "hash": "cf234027fdab8e03e1385551d448be4622beea136019f128f8bc7ea0086662be",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 1000.0,
+      "food": 2145.0,
+      "water": 2510.0,
+      "temp": 690.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 126.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_20_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "51baf37448f9f8d0340da16d8696441129c9a1b59c3f6357e53120775262a20b",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 1000.0,
+      "food": 2285.0,
+      "water": 2590.0,
+      "temp": 720.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 139.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_20_maxcopy_5_blacklist_Пустышка": {
+    "hash": "1dddfdbac9bfc6b0b0dfe152b9e3a3fd6b3d1c5f8408d97c63a2cc0c67ff0b68",
+    "maxima": {
+      "slots": 20.0,
+      "rad": 1000.0,
+      "food": 2285.0,
+      "water": 2590.0,
+      "temp": 720.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 139.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_21_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "247ff67cc1c934447af72bd4ae904d4b5dff5e752a21f37c4581ed1c3ee923e7",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 360.0,
+      "food": 735.0,
+      "water": 760.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 37.0,
+      "anom_defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 188.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_21_maxcopy_1_blacklist_Пустышка": {
+    "hash": "662c1ab606a7f3713900d8e997e01d09fabef24e9dc8764c1644c18965e48646",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 375.0,
+      "food": 740.0,
+      "water": 800.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 38.0,
+      "anom_defence": 32.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 190.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_21_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "047299d56b69975f42eeb92fd8992d0221e356b03d2cd7085ea4a8cd676731ba",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 1000.0,
+      "food": 1605.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_21_maxcopy_2_blacklist_Пустышка": {
+    "hash": "6fc08bf5df36ea3cd455a26027f723a20b078a3c5a8e214445583a44b16e103b",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 1000.0,
+      "food": 1605.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_21_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "2b8e98ce2fb2103e133dc328b2d4b85cc482d75ace99f98e2ffd496fe4473551",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 1000.0,
+      "food": 2080.0,
+      "water": 2230.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_21_maxcopy_3_blacklist_Пустышка": {
+    "hash": "712a9459204ee0cff24aed8f62adca1e18ab871ceb8c21b9ceeae48488ba8e1f",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 1000.0,
+      "food": 2080.0,
+      "water": 2230.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_21_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "b1031d39ad7fdf054a90f46a42f87fcbce903b4a413d366c13f0a070125074ad",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 1000.0,
+      "food": 2220.0,
+      "water": 2610.0,
+      "temp": 720.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 127.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_21_maxcopy_4_blacklist_Пустышка": {
+    "hash": "83f508f12765a1d8c11ee45c0e1645c2a0c3554cf6c43245bb43908e931189c2",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 1000.0,
+      "food": 2220.0,
+      "water": 2610.0,
+      "temp": 720.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 127.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_21_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "131cd55341b009e9b64b6b2441deebfbe654e9b97a79fae9c76990de634cc155",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 1000.0,
+      "food": 2315.0,
+      "water": 2740.0,
+      "temp": 750.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 142.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_21_maxcopy_5_blacklist_Пустышка": {
+    "hash": "5e4899b2fd827386af00e3b476b26d35f9cd561745033d0d184e961e6b52a5f4",
+    "maxima": {
+      "slots": 21.0,
+      "rad": 1000.0,
+      "food": 2315.0,
+      "water": 2740.0,
+      "temp": 750.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 142.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_22_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "2d5e40dabb86d1a0534edfc39b95df2f48f7bb3c890b859185669d9852153446",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 330.0,
+      "food": 700.0,
+      "water": 740.0,
+      "temp": 200.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 37.0,
+      "anom_defence": 28.0,
+      "bullet_defence": 16.0,
+      "blood": 495.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 184.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_22_maxcopy_1_blacklist_Пустышка": {
+    "hash": "aa4617dc631991d4c24ade876a7fa543f88272dbf8f11aeed04af77c1cf7cbcb",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 345.0,
+      "food": 700.0,
+      "water": 740.0,
+      "temp": 225.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 37.0,
+      "anom_defence": 30.0,
+      "bullet_defence": 23.0,
+      "blood": 500.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 188.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_22_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "adfbfbc8881855483df032f9803aee5780f2a8785ffce57de278de7c5793be8f",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 1000.0,
+      "food": 1605.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_22_maxcopy_2_blacklist_Пустышка": {
+    "hash": "f62dd54b58fa9dfbaad8e6db3dd7d088e8b2ea990c5e4646a10c36c053f542a7",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 1000.0,
+      "food": 1605.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_22_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "9fc24045ba3cb6193dcef6cd446d6f7b822d77191f983b2dc19ee33ad46c22a2",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 1000.0,
+      "food": 2130.0,
+      "water": 2260.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_22_maxcopy_3_blacklist_Пустышка": {
+    "hash": "f34185082de79034acb98a204b49899a902f7150c2d4fc1f823c5439b1f93f77",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 1000.0,
+      "food": 2130.0,
+      "water": 2260.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_22_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "e3c0fc5ca45c724a1543122b6599d13873f2db8b1fd94a448f8f414aae4edc59",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 1000.0,
+      "food": 2270.0,
+      "water": 2730.0,
+      "temp": 720.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 131.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_22_maxcopy_4_blacklist_Пустышка": {
+    "hash": "ce1794fc653d88484ae60293f2270539c801ff8ccbdf63ce6c88ffac678599e3",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 1000.0,
+      "food": 2270.0,
+      "water": 2730.0,
+      "temp": 720.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 131.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_22_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "a061692586244c87c763f65cddfcbf6bd0a38bd00e23a0db72dcdb6b80b08e04",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 1000.0,
+      "food": 2410.0,
+      "water": 2840.0,
+      "temp": 780.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 146.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_22_maxcopy_5_blacklist_Пустышка": {
+    "hash": "70b2e3b21d4d9672fecd4f9ef640ee5bad871063456f3da0c7957139f60bcaaf",
+    "maxima": {
+      "slots": 22.0,
+      "rad": 1000.0,
+      "food": 2410.0,
+      "water": 2840.0,
+      "temp": 780.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 146.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_23_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "43b712767f597a325ac3e41efcf07b5dd37cb4f068436e7d277cbee6297bfeba",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 300.0,
+      "food": 675.0,
+      "water": 715.0,
+      "temp": 170.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 36.0,
+      "anom_defence": 25.0,
+      "bullet_defence": 16.0,
+      "blood": 495.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 179.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_23_maxcopy_1_blacklist_Пустышка": {
+    "hash": "cdbb281c7033c602029341358dd42069461909ec21417f9643fba5d8ecdb7379",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 315.0,
+      "food": 675.0,
+      "water": 740.0,
+      "temp": 200.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 37.0,
+      "anom_defence": 28.0,
+      "bullet_defence": 22.0,
+      "blood": 495.0,
+      "resilience": 240.0,
+      "health": 50.0,
+      "cut_risk": 183.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_23_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "cd25710cd36b3ccff3a8b64565bcca6dd5c3834abe41878897fee70f994aa849",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 1000.0,
+      "food": 1630.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_23_maxcopy_2_blacklist_Пустышка": {
+    "hash": "ba20a4ef74e5e61c87c9a48473054a92c9bd1fc0b8125ef97fcd49e580fe366a",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 1000.0,
+      "food": 1630.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_23_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "8509c89f36ed14c1e56605e4fcbd5e5e06dfe1ed8468fa5a259061264f57bf9b",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 1000.0,
+      "food": 2180.0,
+      "water": 2290.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_23_maxcopy_3_blacklist_Пустышка": {
+    "hash": "b0dff389fc44d441db79f021bcb781e482ef16b14157ea65516318dadac69d54",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 1000.0,
+      "food": 2180.0,
+      "water": 2290.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_23_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "cbc2af727b8fd24e709f133596e65bd2629fafac08b30e12fc5e1c76084c3b35",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 1000.0,
+      "food": 2320.0,
+      "water": 2750.0,
+      "temp": 750.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 135.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_23_maxcopy_4_blacklist_Пустышка": {
+    "hash": "0a5147f0183b25bfc410777793b796a0fcae53317bccad192c91cb7f94e59d52",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 1000.0,
+      "food": 2320.0,
+      "water": 2750.0,
+      "temp": 750.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 135.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_23_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "ad8eed39bb6a4c21e85f6c13396861fa4be18da9ea47d12aa29c6ae032a1bcf1",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 1000.0,
+      "food": 2530.0,
+      "water": 2960.0,
+      "temp": 810.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 151.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_23_maxcopy_5_blacklist_Пустышка": {
+    "hash": "e7bb573772fa0fdf11df532cca38120f9cb6b4c674ceb1e26c8a1b49bb46c74a",
+    "maxima": {
+      "slots": 23.0,
+      "rad": 1000.0,
+      "food": 2530.0,
+      "water": 2960.0,
+      "temp": 810.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 151.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_24_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "26aada5715beb6dc6d6fdc2562868d4e30a22d9152882265a8628222608d2c6e",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 260.0,
+      "food": 650.0,
+      "water": 675.0,
+      "temp": 130.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 32.0,
+      "anom_defence": 21.0,
+      "bullet_defence": 14.0,
+      "blood": 495.0,
+      "resilience": 210.0,
+      "health": 49.6,
+      "cut_risk": 174.0,
+      "break_risk": 265.0
+    }
+  },
+  "slots_24_maxcopy_1_blacklist_Пустышка": {
+    "hash": "1ccb257096ec873f571ccebf230d0d9c351f8eae3281e28e3d81a8ff57d6af95",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 285.0,
+      "food": 650.0,
+      "water": 715.0,
+      "temp": 160.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 34.0,
+      "anom_defence": 25.0,
+      "bullet_defence": 21.0,
+      "blood": 495.0,
+      "resilience": 225.0,
+      "health": 50.0,
+      "cut_risk": 179.0,
+      "break_risk": 270.0
+    }
+  },
+  "slots_24_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "cd5dfc0cd919c9e1b20e36f27fcf6dc3afcfbd3abf5169fdede3059b49de3566",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 1000.0,
+      "food": 1630.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 38.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_24_maxcopy_2_blacklist_Пустышка": {
+    "hash": "96b3f367a47da4347311a71ce8d34a8b39b6d1490d9a149f234f6702352ec5d8",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 1000.0,
+      "food": 1630.0,
+      "water": 1620.0,
+      "temp": 420.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 68.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_24_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "5a73da9fbadc35e8dcd4f2c1b13a5c18dc267dc5ef81d114128af3af07b104ac",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 1000.0,
+      "food": 2210.0,
+      "water": 2290.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_24_maxcopy_3_blacklist_Пустышка": {
+    "hash": "88760ab0039839d0820a8ce86f8404265bd0e5ef0d80591309f81b162094fa8a",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 1000.0,
+      "food": 2210.0,
+      "water": 2290.0,
+      "temp": 615.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 102.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_24_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "0a3817df2b1c4239d3c3da35b11c6d119e2fb7befea800182d5c24527a7bb22f",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 1000.0,
+      "food": 2350.0,
+      "water": 2850.0,
+      "temp": 750.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 136.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_24_maxcopy_4_blacklist_Пустышка": {
+    "hash": "ecf2c1ca98a9cf370d38eef93c8ad3dc9b42bd904a00a6bd873fd07f851c94d5",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 1000.0,
+      "food": 2350.0,
+      "water": 2850.0,
+      "temp": 750.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 136.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_24_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "334d99d7539967a9de03723a832368810098f1be4cb94fdff9b64118bd44d94e",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 1000.0,
+      "food": 2580.0,
+      "water": 3080.0,
+      "temp": 810.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 156.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  },
+  "slots_24_maxcopy_5_blacklist_Пустышка": {
+    "hash": "1a37b12277ddb576cc407b43c1f423cff71ac210e6364e169616fb54ad33e636",
+    "maxima": {
+      "slots": 24.0,
+      "rad": 1000.0,
+      "food": 2580.0,
+      "water": 3080.0,
+      "temp": 810.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 50.0,
+      "anom_defence": 156.0,
+      "bullet_defence": 50.0,
+      "blood": 500.0,
+      "resilience": 300.0,
+      "health": 50.0,
+      "cut_risk": 300.0,
+      "break_risk": 300.0
+    }
+  }
+}
