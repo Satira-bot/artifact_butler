@@ -7,7 +7,7 @@ from src.logic.data_loader import DataLoader
 from src.logic.optimizer import CoefficientCalculator, ILPSolver
 
 TIERS = [1, 2, 3, 4]
-SLOT_MIN, SLOT_MAX = 1, 24
+SLOT_MIN, SLOT_MAX = 1, 25
 MAX_COPY_MIN, MAX_COPY_MAX = 1, 5
 BLACKLISTS = [
     ["Душа", "Пустышка"],

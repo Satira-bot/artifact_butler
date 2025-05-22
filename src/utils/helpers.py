@@ -22,8 +22,9 @@ class Settings:
     blacklist: List[str] = field(default_factory=lambda: ["Душа", "Пустышка"])
     jitter: float = 0.0
     alt_jitter: float = 0.3
-    alt_cnt: int = 7
-    alt_runs: int = 14
+    alt_cnt: int = 10
+    alt_runs: int = 15
+    props_file: str = "props_tier3.yaml"
 
     def __post_init__(self) -> None:
         self.alt_runs = round(self.alt_cnt * 1.5)

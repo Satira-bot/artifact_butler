@@ -13,9 +13,14 @@ from src.utils.constants import preset_map, build_label_alt, build_label_det
 
 def optimization_page() -> None:
     settings = h.Settings()
-
     presets = ["(по умолчанию)"] + list(preset_map.keys())
     sel = st.selectbox("Пресет ранга", presets, index=0, key="rank_preset")
+    data_path = Path("data/artifacts_data.json")
+    all_artifacts = []
+
+    if data_path.exists():
+        art_data = json.loads(data_path.read_text(encoding="utf-8"))
+        all_artifacts = list(art_data.keys())
 
     if sel in preset_map:
         cfg = preset_map[sel]
@@ -23,13 +28,14 @@ def optimization_page() -> None:
         settings.num_slots = cfg["num_slots"]
         settings.blacklist = cfg["blacklist"]
         settings.max_copy = cfg["max_copy"]
+        settings.props_file = cfg["props_file"]
 
     with st.form("opt_form", clear_on_submit=False):
         st.subheader("⚙️ Основные параметры")
         c1, c2 = st.columns(2, gap="large")
         with c1:
             settings.num_slots = st.number_input(
-                "Слотов", 1, 24, settings.num_slots, key="slots_basic"
+                "Слотов", 1, 25, settings.num_slots, key="slots_basic"
             )
             settings.max_copy = st.number_input(
                 "Максимум копий артефакта", 1, 5, settings.max_copy, key="max_copy_basic",
@@ -39,16 +45,18 @@ def optimization_page() -> None:
             settings.tier = st.number_input(
                 "Тир", 1, 4, settings.tier, key="tier_basic"
             )
-            bl_raw = st.text_input(
-                "Исключить (через запятую)",
-                ", ".join(settings.blacklist),
-                help="Список артефактов, которые не будут использоваться при подборе сборки. Например: «Душа, Пустышка» (без кавычек).",
+            selected_blacklist = st.multiselect(
+                "Исключить артефакты",
+                options=all_artifacts,
+                default=settings.blacklist,
+                help="Выберите из списка артефакты, которые не будут использоваться при подборе сборки.",
                 key="blacklist_basic"
             )
+            settings.blacklist = selected_blacklist
 
         with st.expander("🔧 Расширенные настройки свойств", expanded=False):
             props = h.Props.load(
-                f"props/props_tier{settings.tier}.yaml",
+                f"props/{settings.props_file}",
                 settings.num_slots
             )
             x1, x2 = st.columns(2, gap="large")
@@ -87,7 +95,7 @@ def optimization_page() -> None:
                     "Min": st.column_config.NumberColumn(
                         "Нижняя граница", step=1,
                         help='Минимально допустимое значение свойства в сборке.',
-                        max_value=100),
+                        max_value=1000),
                     "Max enabled": st.column_config.CheckboxColumn(
                         "Вкл. верхнюю границу?",
                         help='Ограничить максимальное значение свойства для поиска сборок.'),
@@ -104,29 +112,8 @@ def optimization_page() -> None:
         submitted = st.form_submit_button("🚀 Запустить подбор")
 
     if submitted:
-
-        data_path = Path("data/artifacts_data.json")
-        all_artifacts = []
-
-        if data_path.exists():
-            art_data = json.loads(data_path.read_text(encoding="utf-8"))
-            all_artifacts = list(art_data.keys())
-
-        raw_items, info_msg = h.normalize_blacklist_input(bl_raw)
-        if info_msg:
-            st.info(info_msg)
-
-        valid, invalid = h.validate_blacklist(raw_items, all_artifacts)
-        if invalid:
-            st.error(
-                f"О, как печально... Артефакты с именами {', '.join(invalid)} не были найдены. "
-                "Возможно, вы допустили ошибку в написании или забыли использовать запятую в качестве разделителя. "
-            )
-            return
-
-        settings.blacklist = valid
-
         df2 = st.session_state.get("adv_df")
+
         if df2 is None:
             st.error("Не удалось прочитать расширенные настройки")
             return
@@ -134,6 +121,7 @@ def optimization_page() -> None:
         h.df_to_props(df2, props)
 
         errors = h.validate_adv_props(df2)
+
         if errors:
             for e in errors:
                 st.error(e)
@@ -150,7 +138,7 @@ def optimization_page() -> None:
     if st.session_state.get("show_builds"):
         best = st.session_state["best"]
         alts = st.session_state["alts"]
-        props_final = h.Props.load(f"props/props_tier{settings.tier}.yaml", settings.num_slots)
+        props_final = h.Props.load(f"props/{settings.props_file}", settings.num_slots)
 
         display_results(best, alts, props_final)
 

@@ -85,10 +85,11 @@ def display_results(best: dict, alts: list[dict], props: Props) -> None:
     rus_order = [props.rus(k) for k in props_order]
     filter_vals: dict[str, float] = {}
 
-    draw_centered_slider_row(df_result, props_order[:7], filter_vals, props, prefix_key="row1")
+    with st.expander("🔍 Параметры фильтрации", expanded=True):
+        draw_centered_slider_row(df_result, props_order[:7], filter_vals, props, prefix_key="row1")
 
-    if len(props_order) > 7:
-        draw_centered_slider_row(df_result, props_order[7:], filter_vals, props, prefix_key="row2")
+        if len(props_order) > 7:
+            draw_centered_slider_row(df_result, props_order[7:], filter_vals, props, prefix_key="row2")
 
     if filter_vals:
         mask = np.logical_and.reduce([df_result[k] >= v for k, v in filter_vals.items()])
@@ -97,8 +98,8 @@ def display_results(best: dict, alts: list[dict], props: Props) -> None:
         df_filtered = df_result
 
     if df_filtered.empty:
-        st.error("О-о-о, какое разочарование! Подходящих сборок не найдено! "
-                 "Быть может, слегка смягчите требования или проявите чуть больше гибкости в настройках?")
+        st.error("Хм... Похоже, ни одна из сборок не проходит текущую фильтрацию. "
+                 "Попробуйте ослабить ограничения, выставленные с помощью ползунков")
         return
 
     df_filtered_show = df_filtered.rename(columns=props.display).drop(columns=["Score", "Run"], errors="ignore")

@@ -1,5 +1,6 @@
 from pathlib import Path
 
+
 def find_project_root(marker: str = 'artifact_butler') -> Path:
     current = Path(__file__).resolve()
     for parent in current.parents:
@@ -7,16 +8,21 @@ def find_project_root(marker: str = 'artifact_butler') -> Path:
             return parent
     raise RuntimeError(f"Project root marker '{marker}' not found.")
 
+
 BASE_DIR = find_project_root()
 DATA_DIR = BASE_DIR / 'data'
 DEFAULT_DATA_FILE = DATA_DIR / 'artifacts_data.json'
 ACHIEVABLE_DIR = BASE_DIR / 'data' / 'achievable_maxima'
 
 preset_map = {
-    "Новичок": {"tier": 1, "num_slots": 3, "blacklist": ["Душа", "Пустышка"], "max_copy": 4},
-    "Сталкер": {"tier": 2, "num_slots": 12, "blacklist": ["Душа", "Пустышка"], "max_copy": 4},
-    "Ветеран": {"tier": 3, "num_slots": 17, "blacklist": ["Пустышка"], "max_copy": 3},
-    "Легенда": {"tier": 4, "num_slots": 19, "blacklist": ["Пустышка"], "max_copy": 3},
+    "Новичок": {"tier": 1, "num_slots": 3, "blacklist": ["Душа", "Пустышка"], "max_copy": 4,
+                "props_file": 'props_tier1.yaml'},
+    "Сталкер": {"tier": 2, "num_slots": 12, "blacklist": ["Душа", "Пустышка"], "max_copy": 4,
+                "props_file": 'props_tier2.yaml'},
+    "Ветеран": {"tier": 3, "num_slots": 17, "blacklist": ["Пустышка"], "max_copy": 3,
+                "props_file": 'props_tier3.yaml'},
+    "Легенда": {"tier": 4, "num_slots": 19, "blacklist": ["Пустышка"], "max_copy": 3,
+                "props_file": 'props_tier4.yaml'},
 }
 
 build_label_det = "По приоритетам"

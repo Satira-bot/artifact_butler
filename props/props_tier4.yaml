@@ -16,14 +16,14 @@ rad:
 
 food:
   column:  "Еда"
-  low:     50
+  low:     100
   high:    null
   priority: 0
   rus: "🍗 Еда"
 
 water:
   column:  "Вода"
-  low:     50
+  low:     100
   high:    null
   priority: 0
   rus: "💧 Вода"
@@ -51,7 +51,7 @@ stamina:
 
 defence:
   column:  "Защита удар"
-  low:     0
+  low:     20
   high:    50
   priority: 3
   rus: "🛡️ Удар"
@@ -65,21 +65,21 @@ anom_defence:
 
 bullet_defence:
   column:  "Защита пули"
-  low:     null
+  low:     0
   high:    50
   priority: 2.5
   rus: "🛡️ Пули"
 
 blood:
   column:  "Кровь"
-  low:     0
-  high:    500
+  low:     50
+  high:    300
   priority: 1
   rus: "🩸 Кровь"
 
 resilience:
   column:  "Стойкость (не падать)"
-  low:     0
+  low:     60
   high:    300
   priority: 0.7
   rus: "🪨 Стойкость"
@@ -97,8 +97,8 @@ cut_risk:
       sign:   1
     - column: "Шанс порез"
       sign:  -1
-  low:      0
-  high:     300
+  low:      50
+  high:     120
   priority: 0.5
   rus: "🔪 Порез"
 
@@ -108,7 +108,7 @@ break_risk:
       sign:   1
     - column: "Шанс перелом"
       sign:  -1
-  low:      0
-  high:     300
+  low:      50
+  high:     120
   priority: 0
   rus: "🦴 Перелом"

@@ -98,7 +98,7 @@ cut_risk:
     - column: "Шанс порез"
       sign:  -1
   low:      0
-  high:     200
+  high:     100
   priority: 0
   rus: "🔪 Порез"
 
@@ -109,6 +109,6 @@ break_risk:
     - column: "Шанс перелом"
       sign:  -1
   low:      0
-  high:     null
+  high:     100
   priority: 0
   rus: "🦴 Перелом"
