@@ -327,9 +327,14 @@ def manual_calculator_page() -> None:
             st.code(full_url, language="markdown")
 
         if save_col.button("💾 Сохранить"):
-            cookie_manager.delete("artifact_build")
+            try:
+                if cookie_manager.get("artifact_butler_build"):
+                    cookie_manager.delete("artifact_butler_build")
+            except KeyError:
+                pass
+
             cookie_manager.set(
-                "artifact_build",
+                "artifact_butler_build",
                 _serialize_build(ss.manual_build),
                 expires_at=(pd.Timestamp.utcnow()
                             + pd.Timedelta(days=120)).to_pydatetime(),
@@ -342,7 +347,7 @@ def manual_calculator_page() -> None:
             st.rerun()
 
         if load_col.button("📥 Загрузить"):
-            encoded = cookie_manager.get("artifact_build")
+            encoded = cookie_manager.get("artifact_butler_build")
             if encoded:
                 ss.manual_build = _deserialize_build(encoded)
                 st.toast("Сборка загружена", icon="📥")
