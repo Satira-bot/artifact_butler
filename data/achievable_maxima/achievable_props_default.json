@@ -1,0 +1,2992 @@
+{
+  "props_default_tier_1_slots_3_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "1551db37b0bfd43a4fcbbfdf1eec7bc25758e875a3a4cb982fba84f032555cc8",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_1_blacklist_Пустышка": {
+    "hash": "f0beca0abaec9338ff6a94bf905c1dab40ca963ded4ddc0886a2930f80d87150",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "bfbb946f91d41def6ddad2987673bce56a0253ab425d0da00a2c25dfbef0fc03",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_4_blacklist_Пустышка": {
+    "hash": "5a4eb95f17babbbe7990294371439350760f594530bb519850f5631386926d99",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "c84cd532d2447237fc1443b263624ec81883d26b4896aaecf3ba3d96dd8d86b5",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_3_blacklist_Пустышка": {
+    "hash": "3ee345bc6f7955a68176985f6c9f0589895b1ceb1849b94bdd0e25215e91653a",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "dff5b8a0d850cc42a434c12bd62cfc67dd416636146eb8fb57546fad5da7e747",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 22.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_1_blacklist_Пустышка": {
+    "hash": "bb8237e6b46d19ee24b8b05cb1ecfee5102affb58e8e9c220d06944877114f9d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 22.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_2_blacklist_Пустышка": {
+    "hash": "62aa3786a83782d6d398b5a5039288ff7ee136cfa6c1ed1f7c5c81113c47f784",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 24.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "6bb615ffd8690ddf5d5c7d587ffc17880721dc5b27a48b06653c31163111aee5",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 24.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_5_blacklist_Пустышка": {
+    "hash": "b21a9f54d09dbac4b421d2e045427220fac5a70fc1c6aab1917668f6070a3444",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "55637fa58d2a7fe6475503fb7f47be63b86a511518b1da64925e56cc384b3239",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "ad2530b752f4856b0f9b843b66a1c0e203c9c50de8ca86d0c40c05739395544a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 24.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_3_blacklist_Пустышка": {
+    "hash": "37696bca52264156845b73a6a9c29b85c644f038d99eb5aea2fba3b0efc54a4e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 24.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "5cb885b15ec742235ce7e3b6d7b3b2c4e4f2ea41ae548ac575a34946d0f7213c",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 24.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "426a9769ce93645c6538066a25159524730b2089316ac790d4628b0265a2d2a7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 28.0,
+      "bullet_defence": 16.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_4_blacklist_Пустышка": {
+    "hash": "e1a6a5e2f23b8304d78c2db50be98f029dfbf82018d07d54c7302aedc7c27049",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 24.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_1_blacklist_Пустышка": {
+    "hash": "8fab824fc37be1db76d5168f8d9d70a11f3f3063f622d293123fcc7d3278645a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 28.0,
+      "bullet_defence": 16.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_5_blacklist_Пустышка": {
+    "hash": "6e0f2ad57128804c1f76e9c364a32db4087add1b32ecfc0295f89c58d8e6563d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 24.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_4_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "d0d03794fcb23853ee87862b424b1c63571f44c655cb743ec724995e48a7884a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 24.0,
+      "bullet_defence": 11.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 19.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_2_blacklist_Пустышка": {
+    "hash": "d691077b7989ebb318f88f0647de14761dbd14190ca26a663611d355d7280162",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_3_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "8622d949f8866d21430bdf164d0edce5fa65761497e3c170cb94a7958881e736",
+    "maxima": {
+      "jump": 9.0,
+      "stamina": 0.0,
+      "defence": 12.0,
+      "bullet_defence": 5.0,
+      "blood": 180.0,
+      "resilience": 150.0,
+      "health": 12.0,
+      "cut_risk": 80.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "8196de27f8edc2f8e74c0b7bc65ac657417fcb130eb213ccb5a690792fe2d7e4",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "dfca8b03bb8b8bc512309dfa5bfcde1aeb126d3960ea4f38cec83a0ecd84d593",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_2_blacklist_Пустышка": {
+    "hash": "b980cb7ee14d5ed858c2922d3b6432d3a831e9293ae23c437622d41ce3bba23f",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_3_blacklist_Пустышка": {
+    "hash": "14de78803bf16b76787a8bf0adafa21e42a2a411364d013f4b19f9fcd38685d9",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "1ea36c396674e4839367f10cd70298921996b1cf87d61460b7d6ddc54a0e1985",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "3284ea8c8c3d4a6625f2763dcfa001d6b64c89020a3c863e414a2eb745fefc4e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_1_blacklist_Пустышка": {
+    "hash": "752a1c44a223d5a6aef7623c8cc3da9aedae3e811d8661159f06738447739391",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_5_blacklist_Пустышка": {
+    "hash": "838d18cc105576636636aa271a5d0a6b3df241fac7258cba0346c72389c2a3ae",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "755b5804563ae24edd16af5a0df27c0b0511cc709afac07f8299375556edddee",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_2_blacklist_Пустышка": {
+    "hash": "41acc09c84c532138ab2e2faedc1d0479a8860fa480087bcd62a99401fb9507d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "a4dd1fca1558e039465ae956af66a1cb0e8a3e036482afc5dedde67f5352aa0d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_3_blacklist_Пустышка": {
+    "hash": "7353d39c3251fdce967758e8a767714fc10effdd4e9d73ef91b25acdf3a0c46d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "60ed8f2f5c5b573506b04ea8357e29b576436f845ed97bb54c970715839a0dbb",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_4_blacklist_Пустышка": {
+    "hash": "53b472dfb2e41a3a56f30f459c270cd60815f63a3954c487488730f52c51d44c",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "c22505e8670d6d2da64bd950274123bdab167d79aa678e78e7368eb9594d6736",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_5_maxcopy_4_blacklist_Пустышка": {
+    "hash": "a893baf103befecced9c9909a10df62fb43e144315b89f1ff7f9c1619e6cc59a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 17.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "01ebb857f23c0efd51c40115489012f2370d60cc506b094672095d733753c7ba",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_1_blacklist_Пустышка": {
+    "hash": "e0873d216bccc96c6e3f9cb4f8f1fd2fbd579dbef05cec38c72a238aa0d27260",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "21c84d440646d907ef979d8f13413fc870d3ce7765f44d15b1b1d04b7a02646b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_2_blacklist_Пустышка": {
+    "hash": "40a2748b5d7ca2ab474004f8cd40d6b369ccb5f6b947d1b867d0cf54015d6cc2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "cdd1cb42ec1aa77bafef4806e0ebfaf1eaae760cd6d8b43702968d336a9cc338",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_3_blacklist_Пустышка": {
+    "hash": "fb13182dd91fa824f0ed87a733518b442b9c0b88bc2489fab4d371cb3bc7a29e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "e7e20c2cae27a81e402eba0eb7796ee86d627c8e91e25a32ac060ac82cbfe6df",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_6_maxcopy_5_blacklist_Пустышка": {
+    "hash": "4a917adeafcd263a67cdddc8c3a9ba5160d9d81de6cdd9e94b366d28dda9219b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "358180f472a426d639a58d4d985c002f6d65c890e4ec3b648bc082c49108a32a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_1_blacklist_Пустышка": {
+    "hash": "fa61885005315463026e412356e2b0f65712fb2425f7c0de3e5653e18250fe76",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "43c44a2726f5b018b644858b6cfbbf0ce9bfa8daf82a6c0e1907b02c408f7a9a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_5_blacklist_Пустышка": {
+    "hash": "bfd3decfc77e60908593b30cbbb47b364be66ab646e252cf8d39db2f9ea0932a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "9c8fae2f67d157c418f76ce0bc43064685e923142b9c4518b186f2a925eae530",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_7_maxcopy_4_blacklist_Пустышка": {
+    "hash": "e28eaeb40c076e126de788a1c2c743e898a7d69d93ebc379009eaac86927af12",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "9878139a7b1748c0c5d3dba6f2e0f2450ae779adefdf14181c166894495f1f90",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_2_blacklist_Пустышка": {
+    "hash": "199c3df543b190e5ddab40f638270e5a24fa9b830aa432ef4e67518640aef318",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "c4a14f6dc865f163c6ebe46cfc9eaeec139046d83b5a9bacd982f40257e8acbd",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "c8af150eacc5f8efa8c9cc8d883cdceecd9616618ed05f4891ba39412f67f0c6",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_3_blacklist_Пустышка": {
+    "hash": "d3c93394129b43ac6dd8cf1d1ad43c247118c56d40166b143498d4f99e42c070",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_1_blacklist_Пустышка": {
+    "hash": "b8f3272f67207e23d0f0018a38a8158ea8ebb240baa34fecc9400aeb9d688bb1",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_4_blacklist_Пустышка": {
+    "hash": "26301f33544cc351f61e18d49a0a33083c7ba4ce14203aee774137c8039c3a6d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "3ba402172fe4d8549c277dd4674153596aab60c25c4f189abd5510e2a8948854",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "6645da9c5936a3def42eea53b9202bbba165eb0c1855f0b7c32bc68c34e655a7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_8_maxcopy_5_blacklist_Пустышка": {
+    "hash": "82a36ab1411f664ab1948c966f54951d58abeb525f0a5573c868b12b8a53abf2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "e3b4afbcc46c815b12ca863ee2cf86473af7def6fbce2dc6939de2fca1c7aad7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "ea1047f01d57be8c408d01c809ad283235dbdb6177be8e128865595f1d10f4f7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_4_blacklist_Пустышка": {
+    "hash": "3475eacc63acd553fb05e45a463bb70a740a5b1262c16bd5a7d47fdd5343a6c1",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_3_blacklist_Пустышка": {
+    "hash": "714aeb5f872cb5bbc4c340ba87bd235ab929ae2c3244c40347ea485edd0e38cf",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_5_blacklist_Пустышка": {
+    "hash": "9f6eeefab34c7f4d069cf77d1f4a2a2dae288f5712a6d7bd295542b36180b37e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "8e411b8fb1854bfe661e1f029f94441da0a884147bb36cb2af56bd16024c8707",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "5b86c050d8f59f6bc6c07f42c0b6d6232d2504935b6434ca265dd2662d8716b6",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_1_blacklist_Пустышка": {
+    "hash": "85c410d83c6de447dbd55bcd33af9af7aca6e65ae5321c4136733b88d19df6fe",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "6f874104c11fc8e41d679856241bcf43dee305cf24cc985fa9e0ea3a047c63fd",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_2_blacklist_Пустышка": {
+    "hash": "9d91a88a05cbbfa8932168f69d59ff7fe8ca13b074201e656df3c0a71aacb7dd",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "7e7380324262261e29a2855eea2845a8530cea741679eafcdfb0e7decbac815b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_5_blacklist_Пустышка": {
+    "hash": "ee87681f5842d5ed8ae9e3ecb32d6e1c6abe9c56b42ccda432fd44ca98fcfd12",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "02d6f59a9c0266c7de9e1c63532d227d603e1cd8eaeb0fad192089cd8394b0f6",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_1_blacklist_Пустышка": {
+    "hash": "f993dc1e52b539c0317ea6c7d4ba9d95137601de8b120093a97bd98ad6ba5cb4",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "87e64a2e5ff1061448102cd8be0cab5f19a886619837f509bdc907cdbf6d164f",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_4_blacklist_Пустышка": {
+    "hash": "0b4723e6757f44a87a34a634e6267784ba3564f170331e4eaf8d5db210223d42",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "7ec68b75111eef1c25511e49dc585f6606bdc7b58e6a7a504ac66fa70d7a22f2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_2_blacklist_Пустышка": {
+    "hash": "70798e4504036d150349c82d11b53a1a62dfb1f13f96ead28938fb199e6cc7db",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_3_blacklist_Пустышка": {
+    "hash": "265b07bbe3ccac6614790474f317882473e8ca8d70d641df1af373fe58903188",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "cb882ff9d69bf00db8cadb007c0bea0a030a7491f73118c8282bea4b2b13f9b8",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_4_blacklist_Пустышка": {
+    "hash": "9af0b4f818861a0a43e6f6b9af14d72fc62f252b38eaa18605408ce21f3a01a7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "4c976f4ee4323fc0ac87f3b303fe10301ad306b1268167c6cf390d62e0855415",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "f374f079598808e7edccc860a473181963b61273d482e194d42f4354bb9b392f",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_1_blacklist_Пустышка": {
+    "hash": "3240642032779b8377c17c7de1d68364e7604d3b80ac2bdc1901d1581fce33df",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "83862685ef9e884f11b1af4937ea471f6e5b9b900c687a56ad35c1824eb153c3",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_11_maxcopy_5_blacklist_Пустышка": {
+    "hash": "14d412a9449af68fac9c6c520add3f0889dd6baa94b865a46dcd1bbdadac24b6",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "733782fb16b691dde8587c9a50251bb960c4d53c16b1b05fc4fb1c6f9a26954f",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_2_blacklist_Пустышка": {
+    "hash": "29669b41d91307fd85bb473e8fef75232dc221b25059c746d1371bddcf57bf04",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_2_blacklist_Пустышка": {
+    "hash": "c2fef0eda35bb3b9de94e32eb78f87dab6656784f13585837b1ecc9790c96ff5",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_9_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "f1953ba1e0cb4e9a93ebb36b080baea170bfebe32ac48457d0935a082fcef16b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "16db6702cae5088d1659315bfb8f75702b7ca3bde93470aa6cf204d471012570",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_4_blacklist_Пустышка": {
+    "hash": "4ff66f8b5a5541168d6c1d3af6f5ffb67c1e9ef03426cbd9593845ea29d4bc1e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "db7cb571146acf5aa8840dafc9cd595f98b4bed7a73554c9fd5fd9974feae0b4",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_10_maxcopy_3_blacklist_Пустышка": {
+    "hash": "4e97f584503d5ebc420df00c8db1997097d398a00c236e90f2afd547f62e79c7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "0aafe6017d75c4abdd384a19bc6e3ee4b1f6ce6c17af6bccbbc1eb9846b4689b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "d097dc63373dcd10d5a3ebd27cdcce07a7c95da8c2927b53240f0f1dbba25c2b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_1_blacklist_Пустышка": {
+    "hash": "b8c628b11bbe9a0255e461e309317a20846c80910db9113077f438f6b1e51aee",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_5_blacklist_Пустышка": {
+    "hash": "e4c92addcf6ef70ffaabf8926755f6fef30ad8fbd69ca4a5f3dc17b47414fe46",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "d65f0db482ac0ac3056e6ca27706bce20aae5ed5f7b47e4cf45e246cc46e4ad7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_3_blacklist_Пустышка": {
+    "hash": "b0fd381e635bb19f94ad0698590176d91efdb3361d741e109165415b3c9911dc",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "e448434ff6e40b2b04651dc7631bbcbb97fdc9fe35d33c337e4daec53c4def15",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_4_blacklist_Пустышка": {
+    "hash": "648c6548dff2cf227dec00b8ecc37c12e54d2f6852e8811a6861d82156bf2ee0",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "65d90abfa78292e9818b6c5ee5708af5160db3999ec0062e7448ff89bc0f4a23",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_1_blacklist_Пустышка": {
+    "hash": "63017674c5328c418831bf667a5dc956b40ce06c6196bb6c8f04b8a635fc3338",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "81c8c4fd3c604a08b3ff68d5f8184695d0d507743247ac695f226773055d7be9",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_5_blacklist_Пустышка": {
+    "hash": "0402409f0b7eb5da878e63b005bd6537e7f592b96ef6585c0bfe58241f3e026c",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "252c54202a8cdbe50016872cc63c1de8e17a0cd803f9d42834af0eec41e97c5b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_2_blacklist_Пустышка": {
+    "hash": "cd21b16f636ddab48ce1e789d383717e54d97125224b070c2274cd47c6a5d47b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "c3e0f40e8e3d0153cd0724a198a0c25cf8e24f783de5b37cfce430ff1c958edc",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_3_blacklist_Пустышка": {
+    "hash": "e9ee257cc4408f7f8be4bc61ea13d7fab48d9f44e94d389b112eeb385a4e9d20",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "d5ab3e3d7782bbfedf53c0080c9ba58842191c4deea8f9f79c3360da5ac2c1af",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_4_blacklist_Пустышка": {
+    "hash": "1c0427eaa13b2c520bcfb99d10cf20d000b896f3c3feebe7068efe8de02d0171",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "e864a7aee9aef5171b6c66b11711164af5601765e6e0d4f19b3a941241d1e638",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_1_blacklist_Пустышка": {
+    "hash": "7b3d27253f768f6c90a38b05eb5f6e731a4858dab22a6578c6d09eefa4a175c8",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "52d23e00a6541fc41e714b69221cf25ed81599eefc21b588625b54b037826838",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_14_maxcopy_5_blacklist_Пустышка": {
+    "hash": "7e746f8d34a8ba1643903f393316f5fd3a52362583025a9f8ae7a32da767307e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "5803e193fa30a1f168b972889a3734f679d038433d69170b392ab22f12da89be",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_2_blacklist_Пустышка": {
+    "hash": "ff6e929d0065a6c784bc74c03880b41c1e612eac783822d729686b546e44cf38",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "af54534a663ef1a477baa3aec198ecc7a7164185e4bd0d5a756930cd646a5604",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_3_blacklist_Пустышка": {
+    "hash": "4bfbbf2b6ae4b31b085aa66558efe9f3c4bcc868b1cc0d841ebcba2de3df96a2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "ebf711302cc36c08d69a6ce91c5c6244a65b0ca10397437f86da38f48402bf50",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_12_maxcopy_3_blacklist_Пустышка": {
+    "hash": "a7303a94dcb740ef93918dbf846e37f2684f197b4f98eaa339bfdf95b137c3a4",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "745b02ee4a7367eee75bdb4df95581eb2753ee9086ed69823360a7b245867652",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_1_blacklist_Пустышка": {
+    "hash": "ef64c3dbafedf39ee265662fcf0d43aad0d0fa1fcc1fedbabce49baadf107ecb",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "af212755b02926f8077dce404b6d44bf565cf417fd1ab96244535106a3a8ced6",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_5_blacklist_Пустышка": {
+    "hash": "c9d8349166216b7f6c8a3fc9a204599815f3fa7632ac92a642607607906a3046",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "fdbffbfe6ed6c805e2840b55de79c16cd675fc9f1b3b475e0d6dd1b72bdeae18",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_3_blacklist_Пустышка": {
+    "hash": "a9865d6f8b15a662b09774cf453745fcc2e4e6abc14a601b3437015c9b1c6bfa",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "b7e1ea7c4df3da5f19146bc209c10d2081cd456d702ea4f15416e807779e31ad",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_2_blacklist_Пустышка": {
+    "hash": "38c8c2cf13983d2d73ee771b83c7284134b758eebe9ba121b7a9501a414b435d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "3362d20caf22d201ceca532f7ba1b749b6fdc7050e2b897b9c834526fffb5db6",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_4_blacklist_Пустышка": {
+    "hash": "386568e76c605be6446db5b4229ff1f212b6080ed27b23e781da2805daa0b6ee",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_4_blacklist_Пустышка": {
+    "hash": "b43c59bb437788fb42f154ccf560b985669bff69ef535cae37748b1ff71cab62",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_15_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "191f7c129c7198da65e265fef5a16ec9d612a8cc49e3e99cce9f9327b0ec1724",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "d6fc0abeef2062a94970f418f86fbdd9806059080be5fd484750a9f95f397ffa",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_1_blacklist_Пустышка": {
+    "hash": "b4623032d85dca0ccd1d0c29ecb9cd95eec71d0271a652dd759c298fd228aa8f",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "1020a6f97adebb1826cd6e88f35d43053b78719e22d986d09ec78b661cc231c2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_16_maxcopy_5_blacklist_Пустышка": {
+    "hash": "b71e7013cc01108532d3d3ecd06f14378abca690c8d51beb4895ef368807e3c0",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "bb8e13c4e80e9fa0be4f6e383b6c5a3348937d9ec9f838f8ba22d44b600bd85b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_2_blacklist_Пустышка": {
+    "hash": "875fd7f48b8cd240e9292bf6cc73afe00285d157758347bef1c08b4c28f47808",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "843c496461c9e89520b4bb218a883e5a7fa9b2a519459d6268fb03165f3f5a8e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "6f5757764d964f67df71072d219556f63745496bbeee4df42647fc59f54ffa78",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_3_blacklist_Пустышка": {
+    "hash": "ec2b8c63351d04aa169b289a162691e8910a5de746ce939be66183f5be5b1596",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_4_blacklist_Пустышка": {
+    "hash": "7107bc599610991776dd41f2d0167c483a212d2743ad4d630ffcb22d93bcfdb2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "c5b375957e2274823fc9c72f6dc316b403362f4af1c4fb7e6f71abac693efd1b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "c1d9928e3b11b60c4306cedecbac9b2a613cac1c7bd8315ffbd6452a9df1b662",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_17_maxcopy_5_blacklist_Пустышка": {
+    "hash": "3ea4bfb2815fcf2c076524f078c35622c25c6d70e1dc06d085b94a79b8c267ba",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "ac991b0c96c9b3ebf11ec3b9aea1c0234c79a5ea110f5d90c1b033247b3b4ba6",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_1_blacklist_Пустышка": {
+    "hash": "288b84caf994e889911d5e59313320d0ab3f244c2152c6e321593cf481cbd5fd",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_2_blacklist_Пустышка": {
+    "hash": "56eaa95a000934fec3ae3472ea9606c3360f9c26d76136c05a94a1bccc636e75",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "f4df56f0f4527adab4c73a526e54c768e52c6e06420728aa6a456078730a2021",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_3_blacklist_Пустышка": {
+    "hash": "3b90e986e223b7dfa43bd120338c075f1f2724ff2824b0eec6fc83f8f829dd57",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "3faf57f37dd47391392f72ec013faafbff333d4b1ef4b0a9f7dc1e21ce561a13",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_4_blacklist_Пустышка": {
+    "hash": "b2518c30d610d637756ca2c4b1f0d9ccc0a88498d73592a8f7209942b4f46d07",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "0b9418aca28a4edb431262b19da2775513fd99059bbe49fe504849c9a8ca2be3",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "6c16e989e017c66df2c3596d7defbbff42d5cd479c776369e6f90a3eb718c82e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_18_maxcopy_5_blacklist_Пустышка": {
+    "hash": "7bb9ad6c5b383e3dac431253271c12723e22b4890fdf1265d2a88f7b208b8048",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_1_blacklist_Пустышка": {
+    "hash": "80b68fe389f97d3435747808930dc156e7a74211ed8ad6fb462fa11e4c280741",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "ec33b5a8d3d2351978bc295563804f56277721184aeca01d9501520d5143de2d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_2_blacklist_Пустышка": {
+    "hash": "7fc317f31b90c528cabe9be705ec2968a3923f40f574d07b18fd62bfe8997092",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "94826bb18dfa90b3f876baca7f19a89b4d10bbfb21181ca5ba9462b8eb3bf5aa",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_3_blacklist_Пустышка": {
+    "hash": "05aebd22dbe9dda0c9b5d537ac61f251affcc2947f7a30c3620ecdafcd17751a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "d3a2860996ae73d3a8fb8d4206512dc95b6f766219f3d832ca7792c54a963953",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_4_blacklist_Пустышка": {
+    "hash": "9bde3f4370f74f55834c18f97f6db7d9d213529a19308d8401ac11ed72f559b2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "cf8fb4908c953b21b1a825cd9369702d97d8d98adaf04abf842c82cc61105fff",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "68a5219d39fb16a289d010082faa2d17cd658719ca248b33b800cf0dd23e9e21",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_1_blacklist_Пустышка": {
+    "hash": "985d12a5df8a26c2e3b6e19903ee845043b0cc5da018c181163a14edd663f66c",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_19_maxcopy_5_blacklist_Пустышка": {
+    "hash": "25dbe914389f974451b222c72a5868aa069d8c3702303ec5dfd862fc1202274a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "b1c016e4d02cc2a3561db15f70ecae27c7a5f3d73686390cb7f391f565f9e584",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_2_blacklist_Пустышка": {
+    "hash": "2193aac66c411eb65755a728801b3246ac8bb9a86accba930552651e3bad3209",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "00d0dbfbd3bbea8f7f12ded77a6a70b352f88dd1be6c45a0b203f589a7ca51cd",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "dadc70c28028233e3a426a30445f59728416948837202ca4969a7e0f720b5525",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_3_blacklist_Пустышка": {
+    "hash": "d3ec26b8d4312568bb1b97fa208b8ea79567e9251613f2608bf1abb3e80ee9fd",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_4_blacklist_Пустышка": {
+    "hash": "a0a2c29140045b9da9ff183b7acb756032da4bbcef0e4afd5178a961d3338854",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "b5b91fb49b1fe7b09aedea29f9d86cd02942522acd2ed27738617fba6194537e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_13_maxcopy_2_blacklist_Пустышка": {
+    "hash": "cda049c2dc9996f62c89fad1e97a936282e04f3943f077a54d6e6e475d0d4df3",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "75e3075c4432abf140068fbec47da580a24d8484e1064ba1e715c8a18aaf8950",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_1_blacklist_Пустышка": {
+    "hash": "320e3b7dc704bd8095515fabc853b5c46adcc7a006fbecdb0029043ba8b9222d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "bc51a31546560a5e81a45ef5622ada36a795be8cd0f6f6f2ffc1d1eb2354fa91",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_2_blacklist_Пустышка": {
+    "hash": "8427b23900a3615fa8381f0bd8f00ed5c53e0fb7805fb2df31086ff48a708136",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "29a32653df748eb1fb3a4a2a910c1d648d397c40b4914c1568b0518648105a71",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "9936f7002e5909c4064c6e45b31e363978c8f9e95c5c1acded274120265bc1e5",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_3_blacklist_Пустышка": {
+    "hash": "4309c71e68cbb817dcf22a4b8ec49f2a0b0af03c2f20ef5908b62bfe83d8ba7b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_20_maxcopy_5_blacklist_Пустышка": {
+    "hash": "01e3d15a11dad43adee97e1366c104e02c64036684ed8db4fffc63ad11e71bdc",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "c2a825aa0d9945ff1e4ba19ed79024a0709d94ad7d4601178b4f215328758289",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_4_blacklist_Пустышка": {
+    "hash": "24e436214b07b4423ed729cc69eae42755b8913b553d6a8450dc33c87a450471",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "3f564d60165493880a9d9dad1fd81263e2b32928bde584faa01a74c405bad91e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_1_blacklist_Пустышка": {
+    "hash": "2c34ca7b288a2352c13c48ea833c01e073f3b6df06df74b5d7f40346f2c984ba",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "76e764d461de43d9a1515fb680fe04bf9c28e6816f85ad2f77b53d22bcdb85b0",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_2_blacklist_Пустышка": {
+    "hash": "a89722a337f03d34b89ac8b9e7127f5bd7f8fbea6f9957dc68be62e649dadc37",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "f6cfd91e70efffe8cd8036fe4b9954fe2fa7beb652c0a3edc6e06f67ed2eb9a1",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_3_blacklist_Пустышка": {
+    "hash": "c7f5e69dbe2199c5bc7072cc27b75e649ecc1df95823b1afa834a0072264ec70",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "9ffa04e33d4e7be77f6425b32346afcc7896b5054c734534aa9b6570b3952734",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "99b5253448fa95cf9fd7d35e02df51f4316d88999b9cd8e950565eeff90319a7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "2306fdecb212439441bfe50da72c5f8e5abab50913a99c1831360d8d9a8b6db4",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_4_blacklist_Пустышка": {
+    "hash": "a9e25b09b8e13eb4103073d51c24cde92262219a4ef8b4b3cb131d3cd6b58ad2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_21_maxcopy_5_blacklist_Пустышка": {
+    "hash": "2b486ac0a3ea773ae50a92c8a53640810f7f928160216391e00d08c0a0d7779b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_22_maxcopy_5_blacklist_Пустышка": {
+    "hash": "e361a9a332dc7bc885d183cc2194ffbdcd2c6f8ea0b10093014586b28f747839",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "2c6bc27bacf721ba8e541b447f61fd02b1e51985167fb285b99e2e7008d4435c",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_1_blacklist_Пустышка": {
+    "hash": "419d2557ecc00d52e59d50d292e6ffefcb5daff2a85d55c11f5cfe249aa8a3c2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "2aaee3f7784250e543b39d6ba397855af70f9d6149e483669346080f37343b9e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_3_blacklist_Пустышка": {
+    "hash": "8cf5c92ebeee2b72ae80702e82d9d3bde558503c3b64f17062375e90604cbad2",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "599c30f915b4fa3be77fd17e4cb1faba98ef66a311d82c6e1dfd1f52ab19c310",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_2_blacklist_Пустышка": {
+    "hash": "26b10a78273404e4a17c80cd8cff29ee30698edb5705027bca71b32992e9ecbb",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_4_blacklist_Пустышка": {
+    "hash": "c4ce756b1bbbd94b4f4e8a65f501ad7d678bdadaaba8649e24de1edfe567509a",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "b7cd9dad03a0e5ebfb114c6316027a5a7bc976721deb9eb7faf1cde1aea3d38b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "1ef6f087df2d86af52e00b8c2306cd636d32f4b232ccc0009f5789af8a019f93",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "8c05e59499d201ce5fa2b105808ea76422a2dbc93627dfcc4b7021a186f20687",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_1_blacklist_Пустышка": {
+    "hash": "e2fd5c0beb0e86f5ecf6e40b698687dfad708bcf6d35147a09b77ac52eb78133",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_23_maxcopy_5_blacklist_Пустышка": {
+    "hash": "af83c23157da23aaf064f8a2a5d11c1264cc0c73a96e95ec368a2a7e77d81d59",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "a4dcf34682a31d66b2c5e522b9b98be0e72b64b8435cfd0a9f292f86896d627e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_2_blacklist_Пустышка": {
+    "hash": "d07c7a46b44daeda1b874ff4f12767f9d028c9e4d3aead71c2ec61a8df257d29",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "ff64e84c3e1bf6212d57e9a6f1bc3a738ede131bdc3500127664596dc5ed7e5b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_3_blacklist_Пустышка": {
+    "hash": "3b437a570a0267c5e2f4517277b527b603e9361566126986a76b9d419a5c0edb",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "61c7b7a11992779af2563b01a8b47243c7b83428434708f56118434a3ceea84e",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_1_blacklist_Душа_Пустышка": {
+    "hash": "74f088aa08da0d46205ea4a9e3f839b3378090ab8a336b4449c28ab97e68590b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_4_blacklist_Пустышка": {
+    "hash": "a1e234cfbfd89396ed5b60e2fb56d675e31c9271ef17324db3b501927b23494f",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_1_blacklist_Пустышка": {
+    "hash": "0c965e99b40bc4f12e9f179dc0daeb7397ed3a76a35b825a3fe2c51f9c39e598",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "a668580fa94bd1b5164a801f1104772f3a8137e292313e311edefc6ff5a60c13",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_24_maxcopy_5_blacklist_Пустышка": {
+    "hash": "b72ccdd55c9f68947f4ab4368d9cace6266669f7d2f7762126122cb4b52737ca",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_2_blacklist_Душа_Пустышка": {
+    "hash": "e2bc1655cc3d5416b4ed9a9981093ce4474a97237bbcdbe40c3e6b1157ab3dd7",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_2_blacklist_Пустышка": {
+    "hash": "e1b5ef7c417875eca0c06f682defd5d62c9aaf388da7cd999370fb3f2b9d1682",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "7a4e1a78816eda2c2fec5475268caf9c1308a909a5ba06e0f92e01a52142f723",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_4_blacklist_Пустышка": {
+    "hash": "a8406ad4845570b47aad00cd0f9f7120c15b3a59c073b9316c721b618032b937",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_5_blacklist_Душа_Пустышка": {
+    "hash": "ffe7c7f6330605ebff9d7f8948ced9f9d4d05947359fa636cbb0be37161bb5f4",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_5_blacklist_Пустышка": {
+    "hash": "d522693dd88d1a98314edd5d64fd65ed957d14a8380fd733fbba2324cb22092b",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_3_blacklist_Душа_Пустышка": {
+    "hash": "b90d09e56fcbc6c61814f3c4e47c24c3129dc9065b1b01fdc4db195d07c7b479",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  },
+  "props_default_tier_1_slots_25_maxcopy_3_blacklist_Пустышка": {
+    "hash": "0f8c8f07aa025efcc54766fbd788b3c640b053b92bff33bdc1dccda533fe9d0d",
+    "maxima": {
+      "jump": 10.0,
+      "stamina": 50.0,
+      "defence": 30.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import random
 import pandas as pd
 import pulp as pl
+from collections import Counter
 from typing import Dict, List, Any, Tuple
 
 from src.utils.helpers import Settings, Props
@@ -55,33 +56,67 @@ class ILPSolver:
                  coef: Dict[str, List[float]],
                  props: Dict[str, Any],
                  settings: Settings,
+                 fixed_artifacts: list[tuple[str, int]] | None = None
                  ) -> None:
         self.df = df
         self.coef = coef
         self.props = props
         self.set = settings
         self.N = len(df)
+        self.fixed_artifacts = fixed_artifacts or []
+        self.fixed_counts = Counter(self.fixed_artifacts)
 
     def _get_achievable_max(self, prop_name: str) -> float:
         if not hasattr(self, '_achievable_max_cache'):
             self._achievable_max_cache: Dict[str, float] = {}
+
         if prop_name not in self._achievable_max_cache:
             prob = pl.LpProblem(f"Max_{prop_name}", pl.LpMaximize)
             x_vars = {i: pl.LpVariable(f"x_{prop_name}_{i}", 0, self.set.max_copy, pl.LpInteger)
                       for i in range(self.N)}
+
             for p, meta in self.props.items():
                 expr = pl.lpSum(self.coef[p][i] * x_vars[i] for i in range(self.N))
                 if (low := meta.get('low')) is not None:
                     prob += expr >= low
                 if (high := meta.get('high')) not in (None, 0):
                     prob += expr <= high
+
             prob += pl.lpSum(x_vars.values()) == self.set.num_slots
             prob += pl.lpSum(self.coef[prop_name][i] * x_vars[i] for i in range(self.N))
-            prob.solve(pl.PULP_CBC_CMD(msg=False))
+            prob.solve(pl.PULP_CBC_CMD(msg=False, timeLimit=5))
             max_val = (sum(self.coef[prop_name][i] * x_vars[i].value() for i in range(self.N))
                        if pl.LpStatus[prob.status] == 'Optimal' else 0.0)
+
             self._achievable_max_cache[prop_name] = max_val
+
         return self._achievable_max_cache[prop_name]
+
+    def _get_achievable_min(self, prop_name: str) -> float:
+        if not hasattr(self, '_achievable_min_cache'):
+            self._achievable_min_cache: Dict[str, float] = {}
+
+        if prop_name not in self._achievable_min_cache:
+            prob = pl.LpProblem(f"Min_{prop_name}", pl.LpMinimize)
+            x_vars = {i: pl.LpVariable(f"x_{prop_name}_{i}", 0, self.set.max_copy, pl.LpInteger)
+                      for i in range(self.N)}
+
+            for p, meta in self.props.items():
+                expr = pl.lpSum(self.coef[p][i] * x_vars[i] for i in range(self.N))
+                if (low := meta.get('low')) is not None:
+                    prob += expr >= low
+                if (high := meta.get('high')) not in (None, 0):
+                    prob += expr <= high
+
+            prob += pl.lpSum(x_vars.values()) == self.set.num_slots
+            prob += pl.lpSum(self.coef[prop_name][i] * x_vars[i] for i in range(self.N))
+            prob.solve(pl.PULP_CBC_CMD(msg=False, timeLimit=5))
+            min_val = (sum(self.coef[prop_name][i] * x_vars[i].value() for i in range(self.N))
+                       if pl.LpStatus[prob.status] == 'Optimal' else 0.0)
+
+            self._achievable_min_cache[prop_name] = min_val
+
+        return self._achievable_min_cache[prop_name]
 
     def _compute_all_achievable(self) -> Tuple[Dict[str, Any], Dict[str, float]]:
         maxima = {p: self._get_achievable_max(p) for p in self.props}
@@ -90,7 +125,7 @@ class ILPSolver:
     def solve_balanced(self,
                        jitter: float = 0.0,
                        cuts: List[List[int]] | None = None,
-                       ) -> Tuple[Dict[str, int], Dict[str, float], float]:
+                       ) -> Tuple[List[Tuple[str, int, int]], Dict[str, float], float]:
 
         self._achievable_max_cache = get_or_compute_achievable(self.set,
                                                                self.props,
@@ -101,7 +136,14 @@ class ILPSolver:
         x = {i: pl.LpVariable(f"x{i}", 0, self.set.max_copy, pl.LpInteger)
              for i in range(self.N)}
 
+        for i, row in self.df.iterrows():
+            cnt_fixed = self.fixed_counts.get((row['Имя'], row['Тир']), 0)
+            if cnt_fixed > 0:
+                prob += x[i] == cnt_fixed
+
         for p, meta in self.props.items():
+            if not meta.get("use", False):
+                continue
             expr = pl.lpSum(self.coef[p][i] * x[i] for i in range(self.N))
             if (low := meta.get('low')) is not None:
                 prob += expr >= low
@@ -116,6 +158,8 @@ class ILPSolver:
 
         terms: List[Any] = []
         for p, meta in self.props.items():
+            if not meta.get('use', False):
+                continue
             prio = meta.get('priority', 0)
             if prio <= 0:
                 continue
@@ -123,14 +167,17 @@ class ILPSolver:
             achievable = self._achievable_max_cache.get(p, 1.0)
             low_raw = meta.get('low')
             high_raw = meta.get('high')
-            scale = min(high_raw, achievable) if high_raw not in (None, 0) else achievable or 1.0
+            high_eff = min(high_raw, achievable) if high_raw not in (None, 0) else achievable
+            low_eff = low_raw if low_raw is not None else 0.0
+            span = high_eff - low_eff
 
-            if scale == 0:
-                scale = 1.0
+            if span <= 0:
+                span = 1.0
 
-            val_norm = raw_expr / scale
-            low_norm = (low_raw / scale) if low_raw is not None else None
-            high_norm = (high_raw / scale) if high_raw not in (None, 0) else None
+            val_norm = (raw_expr - low_eff) / span
+            low_norm = 0.0
+            high_norm = 1.0
+
             if low_raw is not None and high_raw not in (None, 0):
                 target = (low_norm + high_norm) / 2
             elif low_raw is not None:
@@ -149,9 +196,12 @@ class ILPSolver:
         prob.solve(pl.PULP_CBC_CMD(msg=False))
 
         if pl.LpStatus[prob.status] != 'Optimal':
-            return {}, {}, 0.0
+            return [], {}, 0.0
 
-        build = {self.df.loc[i, 'Имя']: int(x[i].value()) for i in range(self.N) if x[i].value()}
+        build = [
+            (self.df.loc[i, 'Имя'], self.df.loc[i, 'Тир'], int(x[i].value()))
+            for i in range(self.N) if x[i].value() > 0
+        ]
         stats = {p: sum(self.coef[p][i] * x[i].value() for i in range(self.N)) for p in self.props}
         score = float(pl.value(prob.objective) or 0.0)
 
@@ -160,7 +210,7 @@ class ILPSolver:
     def solve_once(self,
                    jitter: float = 0.0,
                    cuts: List[List[int]] | None = None,
-                   ) -> Tuple[Dict[str, int], Dict[str, float], float]:
+                   ) -> Tuple[List[Tuple[str, int, int]], Dict[str, float], float]:
 
         self._achievable_max_cache = get_or_compute_achievable(
             self.set,
@@ -171,7 +221,15 @@ class ILPSolver:
         if not hasattr(self, '_base_model'):
             self._base_model = pl.LpProblem("ArtifactOptim", pl.LpMaximize)
             self._x = {i: pl.LpVariable(f"x{i}", 0, self.set.max_copy, pl.LpInteger) for i in range(self.N)}
+
+            for i, row in self.df.iterrows():
+                cnt_fixed = self.fixed_counts.get((row["Имя"], row["Тир"]), 0)
+                if cnt_fixed > 0:
+                    self._base_model += self._x[i] == cnt_fixed
+
             for p, meta in self.props.items():
+                if not meta.get('use', False):
+                    continue
                 expr = pl.lpSum(self.coef[p][i] * self._x[i] for i in range(self.N))
                 if (low := meta.get('low')) is not None:
                     self._base_model += expr >= low
@@ -187,27 +245,38 @@ class ILPSolver:
         terms = []
 
         for p, meta in self.props.items():
-            prio = meta.get('priority', 0)
+            if not meta.get("use", False):
+                continue
+            prio = meta.get("priority", 0)
             if prio <= 0:
                 continue
-            achievable = self._achievable_max_cache.get(p, 1.0)
-            high_raw = meta.get('high')
-            scale = min(high_raw, achievable) if high_raw not in (None, 0) else achievable or 1.0
 
-            if scale == 0:
-                scale = 1.0
+            achievable = self._achievable_max_cache.get(p, 1.0)
+            high_raw = meta.get("high")
+            high_eff = min(high_raw, achievable) if high_raw not in (None, 0) else achievable
+            low_raw = meta.get("low", 0.0)
+            span = high_eff - low_raw
+
+            if span <= 0:
+                span = 1.0
+
+            raw_expr = pl.lpSum(self.coef[p][i] * self._x[i] for i in range(self.N))
+            norm_expr = (raw_expr - low_raw) / span
 
             weight = prio * (1 + jitter * random.uniform(-1, 1))
-            norm_expr = pl.lpSum((self.coef[p][i] / scale) * self._x[i] for i in range(self.N))
             terms.append(weight * norm_expr)
 
         model += pl.lpSum(terms)
-        model.solve(pl.PULP_CBC_CMD(msg=False, timeLimit=1, gapRel=0.05))
+        model.solve(pl.PULP_CBC_CMD(msg=False, timeLimit=1, gapRel=0.02))
 
         if pl.LpStatus[model.status] != 'Optimal':
-            return {}, {}, 0.0
+            return [], {}, 0.0
 
-        build = {self.df.loc[i, 'Имя']: int(self._x[i].value()) for i in range(self.N) if self._x[i].value()}
+        build = [
+            (self.df.loc[i, 'Имя'], self.df.loc[i, 'Тир'], int(self._x[i].value()))
+            for i in range(self.N)
+            if self._x[i].value() > 0
+        ]
         stats = {p: sum(self.coef[p][i] * self._x[i].value() for i in range(self.N)) for p in self.props}
         score = float(pl.value(model.objective) or 0.0)
 
@@ -219,32 +288,91 @@ class ArtifactBuildManager:
     Управляет подбором сборок: детермин. решение + альтернативы + отчёт.
     """
 
-    def __init__(self, props: Props, settings: Settings):
+    def __init__(self, props: Props, settings: Settings, fixed_artifacts: List[Tuple[str, int]]):
         self.settings = settings
         self.props = props.data
-        self.df = DataLoader(self.settings).load()
+        full_df = DataLoader(self.settings).load()
+        base_df = full_df[
+            (full_df["Тир"] == settings.tier) &
+            (~full_df["Имя"].isin(settings.blacklist))
+            ]
+
+        fixed_rows: List[pd.DataFrame] = []
+        for name, tier in fixed_artifacts:
+            rows = full_df[(full_df["Имя"] == name) & (full_df["Тир"] == tier)]
+            if not rows.empty:
+                fixed_rows.append(rows)
+
+        if fixed_rows:
+            solver_df = pd.concat([base_df, *fixed_rows], ignore_index=True)
+        else:
+            solver_df = base_df.copy()
+
+        solver_df = (
+            solver_df
+            .drop_duplicates(subset=["Имя", "Тир"])
+            .sort_values(by=["Тир", "Имя"])
+            .reset_index(drop=True)
+        )
+        self.df = solver_df
+
         calc = CoefficientCalculator(props, self.df)
         calc.compute()
-        self.solver = ILPSolver(self.df, calc.coef, self.props, self.settings)
+
+        self.solver = ILPSolver(
+            self.df,
+            calc.coef,
+            self.props,
+            self.settings,
+            fixed_artifacts
+        )
+
         self.best: Dict[str, Any] = {}
         self.alts: List[Dict[str, Any]] = []
+        self.fixed_artifacts = fixed_artifacts
 
     def run(self) -> None:
-        build, stats, score = self.solver.solve_balanced()
-        self.best = {"build": build, "stats": stats, "score": score}
-        det_cut = [i for i, name in enumerate(self.df["Имя"]) if build.get(name)]
+        best_list, stats, score = self.solver.solve_balanced()
+        self.best = {"build": best_list, "stats": stats, "score": score}
+
+        best_counts = {(n, t): c for n, t, c in best_list}
+        det_cut = [
+            idx for idx, (_, row) in enumerate(self.df.iterrows())
+            if best_counts.get((row["Имя"], row["Тир"]), 0) > 0
+        ]
         cuts: List[List[int]] = [det_cut]
+
         results: List[Dict[str, Any]] = []
+        for _ in range(self.settings.alt_runs):
+            alt_list, alt_stats, alt_score = self.solver.solve_once(
+                jitter=self.settings.alt_jitter,
+                cuts=cuts
+            )
+            if not alt_list:
+                continue
 
-        for n in range(self.settings.alt_runs):
-            b, s, sc = self.solver.solve_once(jitter=self.settings.alt_jitter, cuts=cuts)
-            results.append({"run": n + 1, "build": b, "score": sc, **s})
-            cuts.append([i for i, name in enumerate(self.df["Имя"]) if b.get(name)])
+            results.append({
+                "run": len(results) + 1,
+                "build": alt_list,
+                "score": alt_score,
+                **alt_stats
+            })
 
-        self.alts = sorted(results, key=lambda d: d["score"], reverse=True)[:self.settings.alt_cnt]
+            alt_counts = {(n, t): c for n, t, c in alt_list}
+            cuts.append([
+                idx for idx, (_, row) in enumerate(self.df.iterrows())
+                if alt_counts.get((row["Имя"], row["Тир"]), 0) > 0
+            ])
+
+            if len(results) >= self.settings.alt_cnt:
+                break
+
+        self.alts = results
 
 
-def compute_builds(_props: Props, _settings: Settings):
-    mgr = ArtifactBuildManager(_props, _settings)
+def compute_builds(_props: Props,
+                   _settings: Settings,
+                   fixed_artifacts: list[tuple[str, int]]):
+    mgr = ArtifactBuildManager(_props, _settings, fixed_artifacts)
     mgr.run()
     return mgr.best, mgr.alts

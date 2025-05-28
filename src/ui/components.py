@@ -131,7 +131,7 @@ def render_header() -> None:
     <div class="header-content">
       <div class="left-spacer"></div>
       <div class="title-block">
-        <h1>Артефактный лакей</h1>
+        <h1>Артефактный Лакей</h1>
         <p>Ваш проводник в хаосе. Оптимизируем сборки — выживаем красиво</p>
       </div>
       <div class="artifact-row">

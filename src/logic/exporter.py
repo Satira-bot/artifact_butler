@@ -8,11 +8,6 @@ from src.utils.constants import build_label_alt, build_label_det
 
 class ExcelExporter:
     """Создаёт и оформляет Excel-отчёты по результатам расчётов.
-
-    Основные возможности:
-      • Формирование сводной таблицы с результатами.
-      • Запись данных в Excel с форматированием и автоссылками.
-      • Поддержка экспорта прямо в память (как bytes).
     """
 
     def __init__(self, settings: Settings, stat_keys: List[str]) -> None:
@@ -37,13 +32,16 @@ class ExcelExporter:
             "resilience": "Стойкость",
             "health": "Здоровье",
             "cut_risk": "Лечение порезов",
-            "break_risk": "Лечение переломов"
+            "break_risk": "Лечение переломов",
+            "Artifact": "Артефакт",
+            "Tier": "Тир",
+            "Count": "Количество"
         }
 
     def _comparison_df(self,
                        best: Dict[str, Any],
-                       alts: List[Dict[str, Any]]) -> pd.DataFrame:
-
+                       alts: List[Dict[str, Any]]
+                       ) -> pd.DataFrame:
         det_row: Dict[str, Any] = {
             "Type": f"{build_label_det}",
             "Run": None,
@@ -76,17 +74,8 @@ class ExcelExporter:
 
     def build_bytes(self,
                     best: Dict[str, Any],
-                    alts: List[Dict[str, Any]]) -> bytes:
-        """
-        Формирует Excel-отчёт в памяти и возвращает его в виде байтов.
-
-        Колонки автоматически переименовываются по col_map.
-        Использует XlsxWriter для форматирования, автоссылок и цветовой шкалы значений.
-
-        :param best: Детерминированный результат расчёта.
-        :param alts: Список альтернативных сборок.
-        :return: Содержимое Excel-файла в формате bytes.
-        """
+                    alts: List[Dict[str, Any]]
+                    ) -> bytes:
         buf = BytesIO()
 
         with pd.ExcelWriter(buf, engine="xlsxwriter") as writer:
@@ -108,14 +97,13 @@ class ExcelExporter:
                 ws.set_column(idx, idx, width)
 
             sheet_col = comp_df.columns.get_loc(self.col_map["Sheet"])
-
-            for row_num, sheet_name in enumerate(self._comparison_df(best, alts)["Sheet"], start=1):
+            for row_num, sheet_name in enumerate(
+                    self._comparison_df(best, alts)["Sheet"], start=1):
                 if pd.notna(sheet_name):
                     url = f"internal:'{sheet_name}'!A1"
                     ws.write_url(row_num, sheet_col, url, string=sheet_name)
 
             last_row = len(comp_df)
-
             for idx, col in enumerate(comp_df.columns):
                 if col in (self.col_map["Type"], self.col_map["Run"], self.col_map["Sheet"]):
                     continue
@@ -129,31 +117,25 @@ class ExcelExporter:
                     }
                 )
 
-            det_df = (
-                pd.DataFrame(best["build"].items(), columns=["Artifact", "Count"])
-                .rename(columns={
-                    "Artifact": self.col_map.get("Artifact", "Артефакт"),
-                    "Count": self.col_map.get("Count", "Количество")
-                })
-            )
+            det_df = pd.DataFrame(best["build"],
+                                  columns=["Artifact", "Tier", "Count"]
+                                  ).rename(columns=self.col_map)
+
             det_df.to_excel(writer, sheet_name=build_label_det, index=False)
             ws_det = writer.sheets[build_label_det]
             ws_det.set_column(0, 0, 20)
-            ws_det.set_column(1, 1, 8)
+            ws_det.set_column(1, 2, 8)
 
             for idx, alt in enumerate(alts, 1):
-                alt_df = (
-                    pd.DataFrame(alt["build"].items(), columns=["Artifact", "Count"])
-                    .rename(columns={
-                        "Artifact": self.col_map.get("Artifact", "Артефакт"),
-                        "Count": self.col_map.get("Count", "Количество")
-                    })
-                )
+                alt_df = pd.DataFrame(
+                    alt["build"],
+                    columns=["Artifact", "Tier", "Count"]
+                ).rename(columns=self.col_map)
                 sheet_name = f"Альт {idx}"
                 alt_df.to_excel(writer, sheet_name=sheet_name, index=False)
                 ws_alt = writer.sheets[sheet_name]
                 ws_alt.set_column(0, 0, 20)
-                ws_alt.set_column(1, 1, 8)
+                ws_alt.set_column(1, 2, 8)
 
         buf.seek(0)
         return buf.read()

@@ -237,3 +237,10 @@
   width: 200px;
   min-height: 1px;
 }
+
+.stButton > button {
+    width: 100% !important;
+}
+.stButton[title] > button {
+    width: 100% !important;
+}

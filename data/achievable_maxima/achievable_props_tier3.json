@@ -1,0 +1,22 @@
+{
+  "slots_17_maxcopy_3_blacklist_Пустышка": {
+    "hash": "8a0c6d37f91e1a04719f202fa86961dbcf07998029eda63da47ec7e29451eeeb",
+    "maxima": {
+      "slots": 17.0,
+      "rad": 200.0,
+      "food": 1690.0,
+      "water": 2000.0,
+      "temp": 909.0,
+      "jump": 10.0,
+      "stamina": 70.0,
+      "defence": 40.0,
+      "anom_defence": 104.0,
+      "bullet_defence": 20.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 25.0,
+      "cut_risk": 100.0,
+      "break_risk": 100.0
+    }
+  }
+}

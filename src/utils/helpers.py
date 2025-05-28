@@ -4,6 +4,7 @@ import base64
 import random
 import pandas as pd
 import streamlit as st
+from collections import Counter
 from dataclasses import dataclass, field
 from typing import List, Dict, Any, Tuple
 
@@ -21,20 +22,21 @@ class Settings:
     max_copy: int = 3
     blacklist: List[str] = field(default_factory=lambda: ["Душа", "Пустышка"])
     jitter: float = 0.0
-    alt_jitter: float = 0.3
+    alt_jitter: float = 0.30
     alt_cnt: int = 10
-    alt_runs: int = 15
+    alt_runs: int = 10
     props_file: str = "props_tier3.yaml"
 
     def __post_init__(self) -> None:
-        self.alt_runs = round(self.alt_cnt * 1.5)
+        self.alt_runs =self.alt_cnt
 
     def recompute(self) -> None:
         """
         Пересчитывает вычисляемые поля после изменения основных настроек.
         Централизует логику пересчёта зависимых параметров.
         """
-        self.alt_runs = round(self.alt_cnt * 1.5)
+        self.alt_runs = self.alt_cnt
+        # self.alt_runs = round(self.alt_cnt * 1.5)
 
     def update_alt_count(self, count: int) -> None:
         """Удобный сеттер: меняем alt_cnt + сразу вызываем recompute()."""
@@ -140,6 +142,59 @@ def validate_adv_props(df: pd.DataFrame) -> List[str]:
     return errors
 
 
+def validate_fixed_count(fixed: List[Tuple[str, int]],
+                         num_slots: int
+                         ) -> List[str]:
+    """
+    Проверяет, что число фиксированных артефактов ≤ num_slots - 1.
+    """
+    errors: List[str] = []
+    total = len(fixed)
+    if total > num_slots - 1:
+        errors.append(
+            f"Вы зафиксировали {total} артефактов — но максимум можно {num_slots - 1}. "
+            "Один слот Лакей должен оставить себе для манёвра."
+        )
+    return errors
+
+
+def validate_fixed_copies(fixed: List[Tuple[str, int]],
+                          max_copy: int
+                          ) -> List[str]:
+    """
+    Проверяет, что ни один артефакт не зафиксирован более max_copy раз.
+    """
+    errors: List[str] = []
+    counts = Counter(fixed)
+    for (name, tier), cnt in counts.items():
+        if cnt > max_copy:
+            errors.append(
+                f"Лакей хмурится: «{name}» (Тир {tier}) — {cnt} копий при лимите {max_copy}. "
+                f"Он покашлял и сделал вид, что не заметил. Но не смог."
+            )
+    return errors
+
+
+def validate_all(df: pd.DataFrame,
+                 fixed: List[Tuple[str, int]],
+                 num_slots: int,
+                 max_copy: int
+                 ) -> List[str]:
+    """
+    Запускает все проверки: расширенные свойства + fixed_count + fixed_copies.
+    """
+    errors: List[str] = []
+
+    if df is None:
+        errors.append("Не удалось прочитать расширенные настройки")
+        return errors
+
+    errors += validate_adv_props(df)
+    errors += validate_fixed_count(fixed, num_slots)
+    errors += validate_fixed_copies(fixed, max_copy)
+    return errors
+
+
 def get_random_footer_phrase() -> str:
     """Возвращает случайную фразу"""
     return random.choice(footer_phrases)
@@ -157,11 +212,7 @@ def props_to_df(props: Props) -> pd.DataFrame:
         if name in hidden:
             continue
         rows.append({
-            "Use": (
-                    meta.get("priority", 0) != 0 or
-                    meta.get("low") is not None or
-                    meta.get("high") is not None
-            ),
+            "Use": bool(meta.get("use", False)),
             "Property": props.rus(name),
             "Priority": float(meta.get("priority", 0)),
             "Min enabled": meta.get("low") is not None,
@@ -188,6 +239,7 @@ def df_to_props(df: pd.DataFrame, props: Props) -> None:
             continue
 
         meta: dict[str, Any] = props.data[key]
+        meta["use"] = bool(row["Use"])
 
         if not row["Use"]:
             meta["priority"] = 0

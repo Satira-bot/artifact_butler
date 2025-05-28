@@ -1,0 +1,22 @@
+{
+  "slots_12_maxcopy_4_blacklist_Душа_Пустышка": {
+    "hash": "6f1b99a8db78c99fff598a18efcc0f8c99e771c1a5867791b90d7cd87b6c8c97",
+    "maxima": {
+      "slots": 12.0,
+      "rad": 100.0,
+      "food": 1220.0,
+      "water": 1620.0,
+      "temp": 665.0,
+      "jump": 11.0,
+      "stamina": 70.0,
+      "defence": 15.0,
+      "anom_defence": 89.0,
+      "bullet_defence": 15.0,
+      "blood": 200.0,
+      "resilience": 150.0,
+      "health": 20.0,
+      "cut_risk": 100.0,
+      "break_risk": 100.0
+    }
+  }
+}

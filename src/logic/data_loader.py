@@ -32,7 +32,6 @@ class DataLoader:
         Загружает данные из JSON-формата и приводит их к табличному виду.
         Формирует таблицу с колонками:
           «Имя», «Тир», все свойства (отсутствующие заполняются нулями).
-        Применяет фильтры по тиру и blacklist из настроек.
         """
         with self.file.open(encoding="utf-8") as f:
             data: Dict[str, Dict[str, Dict[str, Any]]] = json.load(f)
@@ -46,25 +45,15 @@ class DataLoader:
                     **props
                 })
 
-        df = pd.DataFrame(rows).fillna(0)
+        df_all = pd.DataFrame(rows).fillna(0)
 
-        df = df[
-            (df["Тир"] == self.set.tier) &
-            (~df["Имя"].isin(self.set.blacklist))
-            ].reset_index(drop=True)
-
-        return df
+        return df_all.reset_index(drop=True)
 
     def _load_excel(self) -> pd.DataFrame:
         """
         Загружает данные из Excel (.xlsx).
         Используется как fallback для совместимости со старым форматом.
-
-        Применяет фильтры по тиру и blacklist из настроек.
         """
         df = pd.read_excel(self.file, sheet_name=0).fillna(0)
+        return df.reset_index(drop=True)
 
-        return df[
-            (df["Тир"] == self.set.tier) &
-            (~df["Имя"].isin(self.set.blacklist))
-            ].reset_index(drop=True)
