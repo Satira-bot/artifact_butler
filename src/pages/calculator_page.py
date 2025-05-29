@@ -106,36 +106,51 @@ def render_manual_build() -> None:
         st.info("Артефакт, мсье? Или два?")
         return
 
-    hdr = st.columns([4, 1, 1, 0.5, 0.5], gap="small")
-    hdr[0].markdown("**Артефакт**")
-    hdr[1].markdown("**Тир**")
-    hdr[2].markdown("**Кол-во**")
+    tab_table, tab_ctrl = st.tabs(["📋 Таблица", "🔧 Интерактив"])
 
-    for (name, tier), qty in sorted(build.items()):
-        c = st.columns([4, 1, 2, 0.5], gap="small")
-        c[0].markdown(f"<div style='margin-top:5px; margin-bottom:0; ; font-size:18px;'><strong>{name}</strong></div>",
-                      unsafe_allow_html=True)
+    with tab_ctrl:
+        header_crtl = st.columns([4.5, 1, 2, 0.5], gap="small")
+        header_crtl[0].markdown("**Артефакт**")
+        header_crtl[1].markdown("**Тир**")
+        header_crtl[2].markdown("**Кол-во**")
 
-        new_tier = c[1].selectbox("Тир", [1, 2, 3, 4], index=tier - 1,
-                                  key=f"tier_{name}_{tier}", label_visibility="collapsed")
-        new_qty = c[2].number_input("Количество", 0, 25, qty, step=1,
-                                    key=f"qty_{name}_{tier}", label_visibility="collapsed")
+        for (name, tier), qty in sorted(build.items()):
+            cols = st.columns([4, 1, 2, 0.5], gap="small")
+            cols[0].markdown(
+                f"<div style='margin-top:5px; margin-bottom:0; ; font-size:18px;'><strong>{name}</strong></div>",
+                unsafe_allow_html=True)
+            new_tier = cols[1].selectbox(
+                "Тир", [1, 2, 3, 4],
+                index=tier - 1,
+                key=f"tier_{name}_{tier}",
+                label_visibility="collapsed",
+            )
+            new_qty = cols[2].number_input(
+                "Количество", 0, 25, qty,
+                step=1,
+                key=f"qty_{name}_{tier}",
+                label_visibility="collapsed",
+            )
 
-        if c[3].button("❌", key=f"del_{name}_{tier}"):
-            ss.manual_build.pop((name, new_tier), None)
-            ss.manual_build.pop((name, tier), None)
-            st.rerun()
+            if cols[3].button("❌", key=f"del_{name}_{tier}"):
+                ss.manual_build.pop((name, tier), None)
+                st.rerun()
 
-        if (new_tier != tier) or (new_qty != qty):
-            old_key = (name, tier)
-            new_key = (name, new_tier)
-            ss.manual_build.pop(old_key, None)
+            if (new_tier != tier) or (new_qty != qty):
+                old_key, new_key = (name, tier), (name, new_tier)
+                ss.manual_build.pop(old_key, None)
+                if new_qty:
+                    ss.manual_build[new_key] = new_qty
+                st.rerun()
 
-            if new_qty:
-                existing = ss.manual_build.get(new_key, 0)
-                ss.manual_build[new_key] = existing + new_qty
+        with tab_table:
+            data = [
+                {"Артефакт": n, "Тир": t, "Количество": q}
+                for (n, t), q in sorted(build.items())
+            ]
+            df = pd.DataFrame(data)
 
-            st.rerun()
+            st.dataframe(df, use_container_width=True, hide_index=True)
 
 
 def calc_summary(build: Dict[Tuple[str, int], int],
@@ -273,30 +288,19 @@ def manual_calculator_page() -> None:
                 with tab:
                     render_artifact_buttons(art_data, tier_sel=i, max_chars=65)
 
-    header = st.columns([1.3, 3.4, 1.7], gap="small")
-
-    with header[0]:
-        st.markdown("<h4 style='margin:0 0 0px'>🧩 Пульт сборки</h4>", unsafe_allow_html=True)
-
-    with header[1]:
-        total = sum(st.session_state.manual_build.values())
-        st.markdown(f"<h4 style='margin:0 0 0px'>🧾 Артефактный регистр открыт: {total}", unsafe_allow_html=True)
-
-    with header[2]:
-        st.markdown("<h4 style='margin:0 0 0px'>🧠 Что мы собрали?", unsafe_allow_html=True)
-
-    st.markdown(
-        """
-        <div style='margin:0;padding:0;line-height:0'>
-            <hr style='margin:0;border:0;border-top:1px solid #3D4044'>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-    ctrl_col, build_col, metr_col = st.columns([1.1, 3.2, 1.8], gap="large")
+    ctrl_col, build_col, metr_col = st.columns([1.3, 3.2, 1.8], gap="large")
 
     with ctrl_col:
+        st.markdown("<h4 style='margin:0 0 0px'>🧩 Пульт сборки</h4>", unsafe_allow_html=True)
+        st.markdown(
+            """
+            <div style='margin:0;padding:0;line-height:0'>
+                <hr style='margin:0;border:0;border-top:1px solid #3D4044'>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
         art_name = st.selectbox("Артефакт", sorted(art_data), key="simple_art")
         tier = st.selectbox("Тир", [1, 2, 3, 4], key="simple_tier")
 
@@ -307,66 +311,87 @@ def manual_calculator_page() -> None:
             st.rerun()
 
     with build_col:
+        total = sum(st.session_state.manual_build.values())
+        st.markdown(f"<h4 style='margin:0 0 0px;'>🧾 Артефактный регистр открыт: {total}", unsafe_allow_html=True)
+        st.markdown(
+            """
+            <div style='margin:0;padding:0;line-height:0'>
+                <hr style='margin:0;border:0;border-top:1px solid #3D4044'>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
         render_manual_build()
 
-        st.markdown("---")
-
-        share_col, save_col, load_col, clear_col = st.columns(4, gap="small")
-
-        if share_col.button("📤 Поделиться"):
-            build_list = [
-                {"name": name, "tier": tier, "count": cnt}
-                for (name, tier), cnt in st.session_state.manual_build.items()
-            ]
-            raw = json.dumps(build_list, ensure_ascii=False)
-            encoded = base64.urlsafe_b64encode(raw.encode()).decode()
-
-            full_url = f"{BASE_URL}?build={encoded}"
-
-            st.success("Персональная ссылка от Лакея")
-            st.code(full_url, language="markdown")
-
-        if save_col.button("💾 Сохранить"):
-            try:
-                if cookie_manager.get("artifact_butler_build"):
-                    cookie_manager.delete("artifact_butler_build")
-            except KeyError:
-                pass
-
-            cookie_manager.set(
-                "artifact_butler_build",
-                _serialize_build(ss.manual_build),
-                expires_at=(pd.Timestamp.utcnow()
-                            + pd.Timedelta(days=120)).to_pydatetime(),
-                path="/",
-                secure=False,
-                same_site="lax"
-            )
-            st.toast("Сборка сохранена!", icon="💾")
-            time.sleep(1)
-            st.rerun()
-
-        if load_col.button("📥 Загрузить"):
-            encoded = cookie_manager.get("artifact_butler_build")
-            if encoded:
-                ss.manual_build = _deserialize_build(encoded)
-                st.toast("Сборка загружена", icon="📥")
-                time.sleep(2)
-                st.rerun()
-            else:
-                st.warning("Хранилище пусто. Лакей лишь вежливо покашлял.")
-
-        if clear_col.button("🗑️ Очистить"):
-            st.session_state.manual_build.clear()
-            st.success("Сборка обнулена. И тишина такая… приятная.")
-            time.sleep(2)
-            st.rerun()
-
     with metr_col:
+        st.markdown("<h4 style='margin:0 0 0px'>🧠 Что мы собрали?", unsafe_allow_html=True)
+        st.markdown(
+            """
+            <div style='margin:0;padding:0;line-height:0'>
+                <hr style='margin:0;border:0;border-top:1px solid #3D4044'>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
         if not ss.manual_build:
             st.info("Ни одного артефакта… Лакей слегка приуныл")
         else:
+            st.markdown("<br>", unsafe_allow_html=True)
             summ = calc_summary(ss.manual_build, art_data)
             df = assemble_metrics_df(summ)
             html = style_metrics_html(df)
             st.markdown(html, unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    share_col, save_col, load_col, clear_col = st.columns(4, gap="small")
+
+    if share_col.button("📤 Поделиться"):
+        build_list = [
+            {"name": name, "tier": tier, "count": cnt}
+            for (name, tier), cnt in st.session_state.manual_build.items()
+        ]
+        raw = json.dumps(build_list, ensure_ascii=False)
+        encoded = base64.urlsafe_b64encode(raw.encode()).decode()
+
+        full_url = f"{BASE_URL}?build={encoded}"
+
+        st.success("Персональная ссылка от Лакея")
+        st.code(full_url, language="markdown")
+
+    if save_col.button("💾 Сохранить"):
+        try:
+            if cookie_manager.get("artifact_butler_build"):
+                cookie_manager.delete("artifact_butler_build")
+        except KeyError:
+            pass
+
+        cookie_manager.set(
+            "artifact_butler_build",
+            _serialize_build(ss.manual_build),
+            expires_at=(pd.Timestamp.utcnow()
+                        + pd.Timedelta(days=120)).to_pydatetime(),
+            path="/",
+            secure=False,
+            same_site="lax"
+        )
+        st.toast("Сборка сохранена!", icon="💾")
+        time.sleep(1)
+        st.rerun()
+
+    if load_col.button("📥 Загрузить"):
+        encoded = cookie_manager.get("artifact_butler_build")
+        if encoded:
+            ss.manual_build = _deserialize_build(encoded)
+            st.toast("Сборка загружена", icon="📥")
+            time.sleep(2)
+            st.rerun()
+        else:
+            st.warning("Хранилище пусто. Лакей лишь вежливо покашлял.")
+
+    if clear_col.button("🗑️ Очистить"):
+        st.session_state.manual_build.clear()
+        st.success("Сборка обнулена. И тишина такая… приятная.")
+        time.sleep(2)
+        st.rerun()
