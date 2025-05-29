@@ -244,3 +244,17 @@
 .stButton[title] > button {
     width: 100% !important;
 }
+
+.stDownloadButton > a,
+.stDownloadButton > button,
+.stDownloadButton[title] > a,
+.stDownloadButton[title] > button {
+    width: 100% !important;
+}
+
+.stLinkButton > a,
+.stLinkButton > button,
+.stLinkButton[title] > a,
+.stLinkButton[title] > button {
+    width: 100% !important;
+}

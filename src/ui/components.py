@@ -85,7 +85,7 @@ def display_results(best: dict, alts: list[dict], props: Props) -> None:
     rus_order = [props.rus(k) for k in props_order]
     filter_vals: dict[str, float] = {}
 
-    with st.expander("🔍 Параметры фильтрации", expanded=True):
+    with st.expander("🔍 Параметры фильтрации", expanded=False):
         draw_centered_slider_row(df_result, props_order[:7], filter_vals, props, prefix_key="row1")
 
         if len(props_order) > 7:
