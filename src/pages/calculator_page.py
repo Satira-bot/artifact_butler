@@ -112,7 +112,7 @@ def render_manual_build() -> None:
         header_crtl = st.columns([4.5, 1, 2, 0.5], gap="small")
         header_crtl[0].markdown("**Артефакт**")
         header_crtl[1].markdown("**Тир**")
-        header_crtl[2].markdown("**Кол-во**")
+        header_crtl[2].markdown("**Количество**")
 
         for (name, tier), qty in sorted(build.items()):
             cols = st.columns([4, 1, 2, 0.5], gap="small")
