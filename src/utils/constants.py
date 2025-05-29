@@ -69,7 +69,7 @@ preset_map = {
                      "props_file": 'props_default.yaml'},
     "Новичок": {"tier": 1, "num_slots": 3, "blacklist": ["Душа", "Пустышка"], "max_copy": 4,
                 "props_file": 'props_tier1.yaml'},
-    "Сталкер": {"tier": 2, "num_slots": 12, "blacklist": ["Душа", "Пустышка"], "max_copy": 4,
+    "Сталкер": {"tier": 2, "num_slots": 13, "blacklist": ["Душа", "Пустышка"], "max_copy": 4,
                 "props_file": 'props_tier2.yaml'},
     "Ветеран": {"tier": 3, "num_slots": 17, "blacklist": ["Пустышка"], "max_copy": 3,
                 "props_file": 'props_tier3.yaml'},

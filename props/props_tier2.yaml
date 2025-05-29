@@ -44,15 +44,15 @@ jump:
   use: true
   column:  "Высота прыжок"
   low:     6
-  high:    11
-  priority: 1.2
+  high:    10
+  priority: 1
   rus: "🦘 Прыжок"
 
 stamina:
   use: true
   column:  "Выносливость"
   low:     10
-  high:    70
+  high:    60
   priority: 2
   rus: "🏃‍♂️ Стамина"
 
@@ -84,7 +84,7 @@ blood:
   use: true
   column:  "Кровь"
   low:     0
-  high:    200
+  high:    150
   priority: 1
   rus: "🩸 Кровь"
 
@@ -92,7 +92,7 @@ resilience:
   use: true
   column:  "Стойкость (не падать)"
   low:     0
-  high:    150
+  high:    100
   priority: 0.7
   rus: "🪨 Стойкость"
 

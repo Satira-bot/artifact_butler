@@ -44,16 +44,16 @@ jump:
   use: true
   column:  "Высота прыжок"
   low:     7
-  high:    11
-  priority: 1.2
+  high:    10
+  priority: 1
   rus: "🦘 Прыжок"
 
 stamina:
   use: true
   column:  "Выносливость"
   low:     30
-  high:    70
-  priority: 1.1
+  high:    60
+  priority: 0.8
   rus: "🏃‍♂️ Стамина"
 
 defence:
@@ -61,7 +61,7 @@ defence:
   column:  "Защита удар"
   low:     0
   high:    40
-  priority: 3
+  priority: 3.5
   rus: "🛡️ Удар"
 
 anom_defence:
@@ -76,7 +76,7 @@ bullet_defence:
   use: true
   column:  "Защита пули"
   low:     0
-  high:    20
+  high:    25
   priority: 2
   rus: "🛡️ Пули"
 

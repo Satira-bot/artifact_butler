@@ -45,7 +45,7 @@ jump:
   column:  "Высота прыжок"
   low:     0
   high:    10
-  priority: 1
+  priority: 0.7
   rus: "🦘 Прыжок"
 
 stamina:
@@ -85,7 +85,7 @@ blood:
   column:  "Кровь"
   low:     0
   high:    200
-  priority: 1
+  priority: 0.5
   rus: "🩸 Кровь"
 
 resilience:
@@ -101,7 +101,7 @@ health:
   column:  "Здоровье"
   low:     0
   high:    25
-  priority: 1
+  priority: 0.5
   rus: "❤️ ХП"
 
 cut_risk:
