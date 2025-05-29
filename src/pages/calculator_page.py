@@ -154,11 +154,16 @@ def _collapse_duplicates(df: pd.DataFrame) -> pd.DataFrame:
 def render_build_editor() -> None:
     df_original = st.session_state.build_df
 
+    row_h = 35
+    header_h = 30
+    total_h = header_h + len(df_original) * row_h + 8
+
     df_edited = st.data_editor(
         df_original,
         hide_index=True,
         use_container_width=True,
         key="build_df_editor",
+        height=total_h,
         column_config={
             "Артефакт": st.column_config.TextColumn("Артефакт", disabled=True),
             "Тир": st.column_config.NumberColumn("Тир", min_value=1, max_value=4, step=1),

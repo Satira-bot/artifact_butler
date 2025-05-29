@@ -107,8 +107,12 @@ def optimization_page() -> None:
             settings.recompute()
 
             df = h.props_to_df(props)
+            row_h = 35
+            header_h = 30
+            total_h = header_h + len(df) * row_h + 8
+
             df_editor = st.data_editor(
-                df, num_rows="fixed", hide_index=True, use_container_width=True,
+                df, num_rows="fixed", hide_index=True, use_container_width=True, height=total_h,
                 column_config={
                     "Use": st.column_config.CheckboxColumn(
                         "Учитываем",
@@ -237,7 +241,7 @@ def optimization_page() -> None:
                 build,
                 columns=["Артефакт", "Тир", "Количество"]
             )
-            st.table(df_build)
+            st.dataframe(df_build, hide_index=True)
 
             with st.expander("🔍 Характеристики артефактов в билде", expanded=False):
                 labels = []
@@ -259,4 +263,4 @@ def optimization_page() -> None:
                                 "1 шт": [round(v, 2) for v in filtered.values()],
                                 f"{count} шт": [round(v * count, 2) for v in filtered.values()],
                             })
-                            st.dataframe(df_stats, use_container_width=True)
+                            st.dataframe(df_stats, use_container_width=True, hide_index=True)
