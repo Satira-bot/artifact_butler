@@ -35,7 +35,6 @@ def optimization_page() -> None:
     for name in all_artifacts:
         for tier in (1, 2, 3, 4):
             all_rows.append({"Артефакт": name, "Тир": tier, "Количество": 0})
-    df_all = pd.DataFrame(all_rows)
 
     if "fixed_artifacts" not in st.session_state:
         st.session_state.fixed_artifacts = []
@@ -107,12 +106,9 @@ def optimization_page() -> None:
             settings.recompute()
 
             df = h.props_to_df(props)
-            row_h = 35
-            header_h = 30
-            total_h = header_h + len(df) * row_h + 8
-
             df_editor = st.data_editor(
-                df, num_rows="fixed", hide_index=True, use_container_width=True, height=total_h,
+                df, num_rows="fixed", hide_index=True, use_container_width=True,
+                height=30 + len(df) * 35 + 8,
                 column_config={
                     "Use": st.column_config.CheckboxColumn(
                         "Учитываем",
@@ -241,7 +237,7 @@ def optimization_page() -> None:
                 build,
                 columns=["Артефакт", "Тир", "Количество"]
             )
-            st.dataframe(df_build, hide_index=True)
+            st.dataframe(df_build, hide_index=True, height=30 + len(df_build) * 35 + 8)
 
             with st.expander("🔍 Характеристики артефактов в билде", expanded=False):
                 labels = []

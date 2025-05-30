@@ -60,7 +60,7 @@ defence:
   use: true
   column:  "Защита удар"
   low:     -7
-  high:    30
+  high:    35
   priority: 3
   rus: "🛡️ Удар"
 

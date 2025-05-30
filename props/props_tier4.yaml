@@ -11,15 +11,15 @@ rad:
     - col_out: "Вывод рад"
       col_in:  "Накопление рад"
       sign:    1
-  low:      100
-  high:     1000
+  low:      20
+  high:     600
   priority: 0
   rus: "☢️ Рад"
 
 food:
   use: true
   column:  "Еда"
-  low:     100
+  low:     50
   high:    null
   priority: 0
   rus: "🍗 Еда"
@@ -27,7 +27,7 @@ food:
 water:
   use: true
   column:  "Вода"
-  low:     100
+  low:     50
   high:    null
   priority: 0
   rus: "💧 Вода"
@@ -53,13 +53,13 @@ stamina:
   column:  "Выносливость"
   low:     30
   high:    60
-  priority: 1
+  priority: 0.8
   rus: "🏃‍♂️ Стамина"
 
 defence:
   use: true
   column:  "Защита удар"
-  low:     20
+  low:     0
   high:    50
   priority: 3.5
   rus: "🛡️ Удар"
@@ -91,7 +91,7 @@ blood:
 resilience:
   use: true
   column:  "Стойкость (не падать)"
-  low:     60
+  low:     40
   high:    300
   priority: 0.7
   rus: "🪨 Стойкость"
@@ -99,7 +99,7 @@ resilience:
 health:
   use: true
   column:  "Здоровье"
-  low:     15
+  low:     1
   high:    40
   priority: 1
   rus: "❤️ ХП"
@@ -111,7 +111,7 @@ cut_risk:
       sign:   1
     - column: "Шанс порез"
       sign:  -1
-  low:      30
+  low:      0
   high:     120
   priority: 0.5
   rus: "🔪 Порез"
@@ -123,7 +123,7 @@ break_risk:
       sign:   1
     - column: "Шанс перелом"
       sign:  -1
-  low:      30
+  low:      0
   high:     120
-  priority: 0
+  priority: 0.1
   rus: "🦴 Перелом"
