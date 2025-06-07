@@ -6,8 +6,9 @@ import pandas as pd
 import streamlit as st
 import extra_streamlit_components as stx
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Any
 from collections import defaultdict
+from pandas import IndexSlice as idx
 from pandas.io.formats.style import Styler
 
 from src.utils.constants import (ALIASES,
@@ -182,13 +183,13 @@ def render_build_interactive() -> None:
     """Интерактивная правка build_df кнопками-контролами."""
     df = st.session_state.build_df
 
-    hdr = st.columns([4.4, 1.2, 1.8, 0.5], gap="small")
+    hdr = st.columns([4.4, 1.2, 1.9, 0.5], gap="small")
     hdr[0].markdown("**Артефакт**")
     hdr[1].markdown("**Тир**")
     hdr[2].markdown("**Количество**")
 
     for idx, row in df.sort_values(["Артефакт", "Тир"]).iterrows():
-        cols = st.columns([4, 1.2, 1.8, 0.5], gap="small")
+        cols = st.columns([4, 1.2, 1.9, 0.5], gap="small")
 
         cols[0].markdown(
             f"<div style='margin-top:5px;font-size:18px;'>"
@@ -245,27 +246,71 @@ def calc_summary_df(build_df: pd.DataFrame, art_data: Dict[str, Dict[str, Dict[s
     return res
 
 
-def assemble_metrics_df(summary: Dict[str, float]) -> pd.DataFrame:
-    rows, covered = [], set()
+def assemble_metrics_df(summary: dict[str, float],
+                        build_df: pd.DataFrame,
+                        art_data: dict[str, dict[str, dict[str, float]]]
+                        ) -> pd.DataFrame:
+    """
+    Собирает итоговую таблицу метрик
+    """
+    rows: list[dict[str, Any]] = []
+    covered: set[str] = set()
 
     for key, cfg in GROUPING_CFG.items():
-        total = 0.0
-        for rule in cfg["group"]:
-            col = rule["column"]
-            sign = rule.get("sign", 1)
-            total += summary.get(col, 0.0) * sign
-            covered.add(col)
-        rows.append({"Свойство": cfg["name"], "Значение": total})
+        total = sum(
+            summary.get(rule["column"], 0.0) * rule["sign"]
+            for rule in cfg["group"]
+        )
+        name = cfg["name"]
+        covered |= {rule["column"] for rule in cfg["group"]}
+        rows.append({"Свойство": name, "Значение": total})
+
+    had_change: dict[str, bool] = {}
+    for prop in summary:
+        if prop in covered:
+            continue
+        had_change[prop] = any(
+            art_data[row["Артефакт"]]
+            .get(str(int(row["Тир"])), {})
+            .get(prop, 0.0) * int(row["Количество"]) != 0
+            for _, row in build_df.iterrows()
+        )
+
+    group_had_change: dict[str, bool] = {}
+    for key, cfg in GROUPING_CFG.items():
+        name = cfg["name"]
+        group_had_change[name] = any(
+            art_data[row["Артефакт"]]
+            .get(str(int(row["Тир"])), {})
+            .get(rule["column"], 0.0) * int(row["Количество"]) * rule["sign"] != 0
+            for _, row in build_df.iterrows()
+            for rule in cfg["group"]
+        )
 
     for prop, val in summary.items():
-        if prop in covered or abs(val) < 1e-6:
+        if prop in covered:
             continue
-        display_name = ALIASES.get(prop, prop)
-        rows.append({"Свойство": display_name, "Значение": val})
+        if abs(val) > 1e-6 or had_change.get(prop, False):
+            display_name = ALIASES.get(prop, prop)
+            rows.append({"Свойство": display_name, "Значение": val})
 
     df = pd.DataFrame(rows)
-    df = df[~((df["Свойство"].isin(["🔪 Порезы", "🦴 Переломы"])) & (df["Значение"].abs() < 1e-6))]
-    return df
+
+    def keep_row(row):
+        name, val = row["Свойство"], row["Значение"]
+
+        if abs(val) > 1e-6:
+            return True
+
+        if name in group_had_change and group_had_change[name]:
+            return True
+
+        atomic_key = next((k for k, v in ALIASES.items() if v == name), name)
+        if atomic_key in had_change and had_change[atomic_key]:
+            return True
+        return False
+
+    return df[df.apply(keep_row, axis=1)]
 
 
 def style_metrics_html(df: pd.DataFrame) -> str:
@@ -280,11 +325,13 @@ def style_metrics_html(df: pd.DataFrame) -> str:
             return "color: red"
         return ""
 
+    mask = df["Свойство"] != "🌡️ Температура"
+
     styler: Styler = (
         df.style
         .hide(axis="index")
         .format({"Значение": "{:+.1f}"})
-        .map(color_cell, subset=["Значение"])
+        .map(color_cell, subset=idx[mask, "Значение"])
     )
 
     html_table = styler.to_html()
@@ -326,23 +373,37 @@ def manual_calculator_page() -> None:
                 with tab:
                     render_artifact_buttons_df(art_data, tier_sel=i, max_chars=65)
 
-    ctrl_col, build_col, metr_col = st.columns([1.4, 3.2, 1.8], gap="large")
+    ctrl_col, build_col, metr_col = st.columns([1.48, 3.1, 1.9], gap="large")
 
     with ctrl_col:
-        st.markdown("<h4 style='margin:0 0 0px'>🧩 Пульт сборки</h4>", unsafe_allow_html=True)
+        st.markdown("""
+        <h4 style="margin:0 0 0px">
+          🧩 Пульт сборки
+          <span title="Добавляй артефакты в сборку через селекторы ниже — или во вкладке выше, где есть отдельные кнопки, фильтры и поиск по имени."
+                style="font-size: 0.6em; vertical-align: middle; margin-left: 6px; cursor: help;">🛈</span>
+        </h4>
+        """, unsafe_allow_html=True)
+
         st.markdown("<hr style='margin:0;border:0;border-top:1px solid #3D4044'>", unsafe_allow_html=True)
 
         art_name = st.selectbox("Артефакт", sorted(art_data), key="simple_art")
         tier = st.selectbox("Тир", [1, 2, 3, 4], key="simple_tier")
 
-        st.markdown("<div style='height:25px'></div>", unsafe_allow_html=True)
+        st.markdown("<div style='height:28px'></div>", unsafe_allow_html=True)
         if st.button("➕ Добавить", key="simple_add"):
             add_artifact_to_df(art_name, tier, 1)
             st.rerun()
 
     with build_col:
         total = int(ss.build_df["Количество"].sum())
-        st.markdown(f"<h4 style='margin:0 0 0px;'>🧾 Артефактный регистр открыт: {total}</h4>", unsafe_allow_html=True)
+        st.markdown(f"""
+        <h4 style='margin:0 0 0px;'>
+          🧾 Артефактный регистр открыт: {total}
+          <span title="Состав сборки, который можно редактировать во вкладках ниже:\n📋 Таблица — прямо в строках.\n🔧 Интерактив — с кнопками и выпадающим списком."
+                style="font-size: 0.65em; vertical-align: middle; margin-left: 6px; cursor: help;">🛈</span>
+        </h4>
+        """, unsafe_allow_html=True)
+
         st.markdown("<hr style='margin:0;border:0;border-top:1px solid #3D4044'>", unsafe_allow_html=True)
 
         if ss.build_df.empty:
@@ -356,14 +417,24 @@ def manual_calculator_page() -> None:
                 render_build_editor()
 
     with metr_col:
-        st.markdown("<h4 style='margin:0 0 0px'>🧠 Что мы собрали?</h4>", unsafe_allow_html=True)
+        st.markdown("""
+        <h4 style="margin:0 0 0px">
+          🧠 Что мы собрали?
+          <span title="Итоговые характеристики сборки.  
+        Скрываем свойства, на которые сборка не влияет."
+                style="font-size: 0.65em; vertical-align: middle; margin-left: 6px; cursor: help;">
+            🛈
+          </span>
+        </h4>
+        """, unsafe_allow_html=True)
+
         st.markdown("<hr style='margin:0;border:0;border-top:1px solid #3D4044'>", unsafe_allow_html=True)
         if ss.build_df.empty:
             st.info("Ни одного артефакта… Лакей слегка приуныл")
         else:
             st.markdown("<br>", unsafe_allow_html=True)
             summ = calc_summary_df(ss.build_df, art_data)
-            df_metrics = assemble_metrics_df(summ)
+            df_metrics = assemble_metrics_df(summ, ss.build_df, art_data)
             st.markdown(style_metrics_html(df_metrics), unsafe_allow_html=True)
 
     st.markdown("---")

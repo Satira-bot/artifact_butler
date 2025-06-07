@@ -15,7 +15,7 @@ def get_random_spinner_phrase() -> str:
 
 def get_spinner_html(phrase: str) -> str:
     """Возвращает HTML со спиннером"""
-    typing_speed = 0.04
+    typing_speed = 0.03
     min_typing_duration = 0.5
     duration = max(len(phrase) * typing_speed, min_typing_duration)
 
