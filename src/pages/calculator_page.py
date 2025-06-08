@@ -173,10 +173,8 @@ def render_build_editor() -> None:
     )
 
     if not df_edited.equals(df_original):
-        collapsed = _collapse_duplicates(df_edited)
         st.session_state.build_df = _collapse_duplicates(df_edited)
-        if len(collapsed) != len(df_edited):
-            st.rerun()
+        st.rerun()
 
 
 def render_build_interactive() -> None:
