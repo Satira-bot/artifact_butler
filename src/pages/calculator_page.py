@@ -17,6 +17,7 @@ from src.utils.constants import (ALIASES,
                                  DEFAULT_DATA_FILE,
                                  GROUPING_CFG,
                                  STAT_KEYS,
+                                 ALIASES_DESCR
                                  )
 
 
@@ -186,7 +187,7 @@ def render_build_interactive() -> None:
     hdr[1].markdown("**Тир**")
     hdr[2].markdown("**Количество**")
 
-    for idx, row in df.sort_values(["Артефакт", "Тир"]).iterrows():
+    for idx, row in df.iterrows():
         cols = st.columns([4, 1.2, 1.9, 0.5], gap="small")
 
         cols[0].markdown(
@@ -312,34 +313,41 @@ def assemble_metrics_df(summary: dict[str, float],
 
 
 def style_metrics_html(df: pd.DataFrame) -> str:
-    def color_cell(v):
-        try:
-            v = float(v)
-        except (ValueError, TypeError):
-            return ""
-        if v > 0:
-            return "color: green"
-        if v < 0:
-            return "color: red"
-        return ""
+    """
+    Генерит HTML таблицу
+    """
+    rows = []
+    for _, row in df.iterrows():
+        prop = row["Свойство"]
+        raw_val = row["Значение"]
+        val_str = f"{raw_val:+.1f}"
+        desc = ALIASES_DESCR.get(prop, "")
 
-    mask = df["Свойство"] != "🌡️ Температура"
+        if prop == "🌡️ Температура":
+            color = "inherit"
+        else:
+            color = "green" if raw_val > 0 else ("red" if raw_val < 0 else "inherit")
 
-    styler: Styler = (
-        df.style
-        .hide(axis="index")
-        .format({"Значение": "{:+.1f}"})
-        .map(color_cell, subset=idx[mask, "Значение"])
-    )
+        rows.append(
+            f'<tr>'
+            f'<td class="has-tooltip" data-tooltip="{desc}">{prop}</td>'
+            f'<td style="color: {color};">{val_str}</td>'
+            f'</tr>'
+        )
 
-    html_table = styler.to_html()
-    extra_css = textwrap.dedent("""
-        <style>
-          table {width:100% !important; border-collapse:separate !important; border-spacing:0 !important; border:1px solid #3D4044 !important; border-radius:12px !important; overflow:hidden !important;}
-          th, td {padding:0 6px !important; font-size:20px !important; height:20px !important;}
-        </style>
+    rows_html = "".join(rows)
+
+    html = textwrap.dedent(f"""\
+        <table class="custom-metrics">
+          <thead>
+            <tr><th>Свойство</th><th>Значение</th></tr>
+          </thead>
+          <tbody>
+            {rows_html}
+          </tbody>
+        </table>
     """)
-    return extra_css + html_table
+    return html
 
 
 def manual_calculator_page() -> None:
@@ -377,7 +385,7 @@ def manual_calculator_page() -> None:
         st.markdown("""
         <h4 style="margin:0 0 0px">
           🧩 Пульт сборки
-          <span title="Добавляй артефакты в сборку через селекторы ниже — или во вкладке выше, где есть отдельные кнопки, фильтры и поиск по имени."
+          <span title="Добавляй артефакты в сборку через селекторы ниже — или во вкладке выше, где есть отдельные кнопки, фильтры и поиск по названию."
                 style="font-size: 0.6em; vertical-align: middle; margin-left: 6px; cursor: help;">🛈</span>
         </h4>
         """, unsafe_allow_html=True)
@@ -397,7 +405,7 @@ def manual_calculator_page() -> None:
         st.markdown(f"""
         <h4 style='margin:0 0 0px;'>
           🧾 Артефактный регистр открыт: {total}
-          <span title="Состав сборки, который можно редактировать во вкладках ниже:\n📋 Таблица — прямо в строках.\n🔧 Интерактив — с кнопками и выпадающим списком."
+          <span title="Состав сборки, который можно редактировать во вкладках ниже:\n📋 Таблица — прямо в строках.\n🔧 Интерактив — с кнопками и выпадающим списком.\n📝 Текст — только чтение, удобно скопировать"
                 style="font-size: 0.65em; vertical-align: middle; margin-left: 6px; cursor: help;">🛈</span>
         </h4>
         """, unsafe_allow_html=True)
@@ -407,12 +415,18 @@ def manual_calculator_page() -> None:
         if ss.build_df.empty:
             st.info("Артефакт, мсье? Или два?")
         else:
-            tab_table, tab_ctrl = st.tabs(["📋 Таблица", "🔧 Интерактив"])
+            tab_table, tab_ctrl, tab_text = st.tabs(["📋 Таблица", "🔧 Интерактив", "📝 Текст"])
 
             with tab_ctrl:
                 render_build_interactive()
             with tab_table:
                 render_build_editor()
+            with tab_text:
+                txt = "\n".join(
+                    f"{i + 1}. {row['Артефакт']} (Тир {row['Тир']}) – {row['Количество']} шт."
+                    for i, row in ss.build_df.iterrows()
+                )
+                st.code(txt, language="markdown")
 
     with metr_col:
         st.markdown("""

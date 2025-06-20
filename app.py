@@ -5,13 +5,14 @@ import src.utils.helpers as h
 from src.pages.help_page import render_help_page
 from src.pages.optimization_page import optimization_page
 from src.pages.calculator_page import manual_calculator_page
+from src.pages.collection_page import collection_page
 from src.ui.components import render_header
 
 
 def main() -> None:
     st.set_page_config(
         page_title="Артефактный Лакей",
-        page_icon = 'assets/favicon.png',
+        page_icon='assets/favicon.png',
         layout="wide",
         initial_sidebar_state="expanded"
     )
@@ -36,6 +37,8 @@ def main() -> None:
             st.session_state["page"] = "Оптимизация сборок"
         if st.button("🎒 Собери сам", key="nav_calc"):
             st.session_state["page"] = "Калькулятор"
+        if st.button("🧾 Коллекция Лакея", key="nav_builds"):
+            st.session_state["page"] = "Коллекция Лакея"
         if st.button("🎩 Пособие Лакея", key="nav_help"):
             st.session_state["page"] = "Инструкция"
         if st.button("📖 О проекте", key="nav_about"):
@@ -47,6 +50,8 @@ def main() -> None:
         optimization_page()
     elif page == "Калькулятор":
         manual_calculator_page()
+    elif page == "Коллекция Лакея":
+        collection_page()
     elif page == "О проекте":
         readme = Path("README.md").read_text(encoding="utf-8")
         st.markdown(readme, unsafe_allow_html=True)
@@ -56,7 +61,7 @@ def main() -> None:
     st.markdown(f"""
     <hr class="site-footer-hr">
     <div class="site-footer">
-      {h.get_random_footer_phrase()} — <b>HailSolus</b>
+      {h.get_random_footer_phrase()} — <b>hailSolus</b>
     </div>
     """, unsafe_allow_html=True)
 

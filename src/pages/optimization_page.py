@@ -1,5 +1,6 @@
 import json
 import base64
+import textwrap
 import pandas as pd
 import streamlit as st
 from pathlib import Path
@@ -9,13 +10,17 @@ from src.logic.exporter import ExcelExporter
 from src.logic.optimizer import compute_builds
 from src.utils.spinner_utils import run_with_dynamic_spinner
 from src.ui.components import display_results
-from src.utils.constants import preset_map, build_label_alt, build_label_det
+from src.utils.constants import preset_map, build_label_alt, build_label_det, ALIASES_DESCR_MAP
 
 
 def optimization_page() -> None:
     settings = h.Settings()
     presets = list(preset_map.keys())
-    sel = st.selectbox("Пресет ранга", presets, index=0, key="rank_preset")
+    sel = st.selectbox("Пресет ранга",
+                       presets,
+                       index=0,
+                       key="rank_preset",
+                       help="Определяет основные параметры и приоритеты свойств. Лакей шепчет: пробуй, экспериментируй, а вдруг найдёшь нечто удивительное.")
     data_path = Path("data/artifacts_data.json")
     all_artifacts = []
 
@@ -68,7 +73,7 @@ def optimization_page() -> None:
                 "Слотов", 3, 25, settings.num_slots, key="slots_basic"
             )
             settings.max_copy = st.number_input(
-                "Максимум копий артефакта", 1, 5, settings.max_copy, key="max_copy_basic",
+                "Максимум копий артефакта", 1, 10, settings.max_copy, key="max_copy_basic",
                 help="Указывает, сколько раз один и тот же артефакт может использоваться в сборке."
             )
         with c2:
@@ -170,8 +175,8 @@ def optimization_page() -> None:
         props_final = h.Props.load(f"props/{settings.props_file}", settings.num_slots)
 
         display_results(best, alts, props_final)
-
-        btn_cols = st.columns([1, 0.8, 0.9, 1.3, 1, 0.6])
+        legend_container = st.empty()
+        btn_cols = st.columns([0.8, 0.7, 0.75, 1.1, 0.75, 0.45, 0.3], gap="small")
 
         choice = btn_cols[0].selectbox(
             "Билд",
@@ -180,8 +185,12 @@ def optimization_page() -> None:
             label_visibility="collapsed"
         )
 
-        if btn_cols[1].button("Показать билд", key="show_build_button"):
-            st.session_state["show_table"] = True
+        if btn_cols[1].button("👁️ Показать билд",
+                              key="toggle_build_button",
+                              help="Показать или скрыть состав выбранной сборки",
+                              use_container_width=True):
+            st.session_state["show_table"] = not st.session_state.get("show_table", False)
+            st.rerun()
 
         build_map = {
             f"{build_label_det}": best.get("build", {}),
@@ -201,43 +210,59 @@ def optimization_page() -> None:
         share_href = f"/?build={encoded}"
 
         txt = "\n".join(
-            f"{name}\t{tier}\t{cnt}"
-            for name, tier, cnt in build
+            f"{i + 1}. {name} (Тир {tier}) — {cnt} шт."
+            for i, (name, tier, cnt) in enumerate(build)
         )
         btn_cols[2].download_button(
-            "Сохранить билд в TXT",
+            "📝️ Сохранить в TXT",
             txt,
             file_name=f"build_{choice.lower().replace(' ', '_')}.txt",
-            mime="text/plain"
+            mime="text/plain",
+            help="Сохранить список артефактов выбранного билда, сверстанный с заботой",
+            use_container_width=True
         )
 
         btn_cols[3].link_button(
-            "Открыть билд в калькуляторе",
+            "🧮️ Открыть билд в калькуляторе",
             url=share_href,
             type="secondary",
-            use_container_width=True
+            use_container_width=True,
+            help="Перейти в калькулятор с выбранной сборкой — чтобы рассмотреть всё в деталях"
         )
 
         exporter = ExcelExporter(settings, list(props_final.data.keys()))
         excel_bytes = exporter.build_bytes(best, alts)
         btn_cols[4].download_button(
-            "Сохранить всё в Excel",
+            "📊️ Сохранить в Excel",
             excel_bytes,
             file_name="comparison_builds.xlsx",
-            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            help="Скачать сравнение всех сборок в Excel. Лакей любит таблицы",
+            use_container_width=True
         )
 
-        if btn_cols[5].button("Сброс", key="reset_button"):
+        if btn_cols[5].button("♻️️ Сброс",
+                              key="reset_button",
+                              help="Очистить все сборки и начать с чистого КПК",
+                              use_container_width=True):
             for k in ("best", "alts", "show_builds", "show_table"):
                 st.session_state.pop(k, None)
             st.rerun()
 
         if st.session_state.get("show_table", False):
-            df_build = pd.DataFrame(
-                build,
-                columns=["Артефакт", "Тир", "Количество"]
-            )
-            st.dataframe(df_build, hide_index=True, height=30 + len(df_build) * 35 + 8)
+            tabs = st.tabs(["📋 Таблица", "📝 Текст"])
+            with tabs[0]:
+                df_build = pd.DataFrame(
+                    build,
+                    columns=["Артефакт", "Тир", "Количество"]
+                )
+                st.dataframe(df_build, hide_index=True, height=30 + len(df_build) * 35 + 8)
+
+            with tabs[1]:
+                txt_pretty = "\n".join(
+                    f"{i + 1}. {name} (Тир {tier}) – {cnt} шт." for i, (name, tier, cnt) in enumerate(build)
+                )
+                st.code(txt_pretty, language="markdown")
 
             with st.expander("🔍 Характеристики артефактов в билде", expanded=False):
                 labels = []
@@ -260,3 +285,30 @@ def optimization_page() -> None:
                                 f"{count} шт": [round(v * count, 2) for v in filtered.values()],
                             })
                             st.dataframe(df_stats, use_container_width=True, hide_index=True)
+
+        if btn_cols[6].button("ℹ️",
+                              key="legend_btn",
+                              help="Показать или скрыть легенду: что означают свойства в таблице",
+                              use_container_width=True):
+            st.session_state.show_legend = not st.session_state.get("show_legend", False)
+            st.rerun()
+
+        if st.session_state.get("show_legend", False):
+            items_html = "".join(
+                f"<p style='margin:4px 0;'><strong>{icon}</strong> — {desc}</p>"
+                for icon, desc in ALIASES_DESCR_MAP.items()
+            )
+            html = f"""
+            <div style="
+                border:1px solid #24272D;
+                border-radius:8px;
+                padding:12px;
+                background-color:#1A1C24;
+            ">
+              {items_html}              
+            </div>
+            <br>
+            """
+            legend_container.markdown(html, unsafe_allow_html=True)
+        else:
+            legend_container.empty()
