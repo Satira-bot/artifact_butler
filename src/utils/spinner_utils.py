@@ -1,69 +1,100 @@
 import time
-import random
 import threading
 import streamlit as st
 import streamlit.components.v1 as components
 from streamlit.runtime.scriptrunner import add_script_run_ctx, get_script_run_ctx
 
+from src.utils.helpers import get_base64_image
 from src.utils.constants import spinner_phrases
 
 
-def get_random_spinner_phrase() -> str:
-    """Возвращает случайную фразу для спиннера."""
-    return random.choice(spinner_phrases)
-
-
-def get_spinner_html(phrase: str) -> str:
-    """Возвращает HTML со спиннером"""
-    typing_speed = 0.03
-    min_typing_duration = 0.5
-    duration = max(len(phrase) * typing_speed, min_typing_duration)
+def get_spinner_html(phrases: list[str]) -> str:
+    spinner_img = get_base64_image("assets/spinner.png")
 
     return f"""
-    <div style='display: flex; align-items: center; gap: 16px;'>
-        <div style='font-size:48px; animation:spin 2s linear infinite;'>☢️</div>
-        <h4 class="typewriter">{phrase}</h4>
+    <div style="display:flex; align-items:center; gap:16px; height:100px;">
+      <img
+        src="data:image/png;base64,{spinner_img}"
+        class="spinner" width="90" height="90"
+      />
+      <h4 id="phrase" class="typewriter"></h4>
     </div>
+
     <style>
-    @keyframes spin {{
-      from {{ transform: rotate(0deg); }}
-      to   {{ transform: rotate(360deg); }}
-    }}
-
-    @keyframes typing {{
-      to {{ clip-path: inset(0 0 0 0); }}
-    }}
-
-    @keyframes blink {{
-      50% {{ border-color: transparent; }}
-    }}
-
+      @keyframes spin {{
+        from {{ transform: rotate(0deg); }}
+        to   {{ transform: rotate(360deg); }}
+      }}
+      .spinner {{
+        display:inline-block;
+        transform-origin:center center;
+        animation: spin 3.5s linear infinite;
+      }}
+      @keyframes fadeUpHoldDown {{
+      0% {{
+        opacity: 0;
+        transform: translateY(-8px);
+      }}
+      30%, 70% {{
+        opacity: 1;
+        transform: none;
+      }}
+      100% {{
+        opacity: 0;
+        transform: translateY(8px);
+      }}
+    }}        
     .typewriter {{
       display: inline-block;
       position: relative;
       overflow: hidden;
-      white-space: nowrap;
-
-      font-family: 'Source Code Pro', Consolas, 'Courier New', monospace;
-      font-size: 20px;
-      line-height: 1.4;
-      color: #ffffff;
-
-      clip-path: inset(0 100% 0 0);
-      -webkit-clip-path: inset(0 100% 0 0);
-
-      animation:
-        typing {duration}s steps({len(phrase)}) forwards,
-        blink 0.7s step-end infinite;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      line-height: 1.6;
+      min-height: 24px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 19px;
+      color: #eaeaea;    
+      transform-origin: top;
+      opacity: 0;
+      animation: fadeUpHoldDown 3.5s ease-out infinite;
     }}
     </style>
+
+    <script>
+      const phrases = {phrases};
+      const phraseEl = document.getElementById('phrase');
+      let lastIndex = -1;
+    
+      function pick() {{
+        let index;
+        do {{
+          index = Math.floor(Math.random() * phrases.length);
+        }} while (index === lastIndex);
+    
+        lastIndex = index;
+        phraseEl.innerText = phrases[index];
+      }}
+    
+      pick();
+      setInterval(pick, 3500);
+    </script>
     """
 
 
 def run_with_dynamic_spinner(task_fn, *args, **kwargs):
-    spinner_placeholder = st.empty()
-    done = False
+    placeholder = st.empty()
+
+    with placeholder:
+        components.html(
+            get_spinner_html(spinner_phrases),
+            height=120,
+            scrolling=False
+        )
+
     result = None
+    done = False
 
     def task_wrapper():
         nonlocal result, done
@@ -75,18 +106,7 @@ def run_with_dynamic_spinner(task_fn, *args, **kwargs):
     thread.start()
 
     while not done:
-        phrase = get_random_spinner_phrase()
+        time.sleep(3.5)
 
-        spinner_placeholder.empty()
-
-        with spinner_placeholder:
-            components.html(
-                get_spinner_html(phrase),
-                height=100,
-                scrolling=False
-            )
-
-        time.sleep(3)
-
-    spinner_placeholder.empty()
+    placeholder.empty()
     return result
