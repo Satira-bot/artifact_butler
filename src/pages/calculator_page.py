@@ -8,9 +8,8 @@ import extra_streamlit_components as stx
 from pathlib import Path
 from typing import Dict, List, Any
 from collections import defaultdict
-from pandas import IndexSlice as idx
-from pandas.io.formats.style import Styler
 
+from src.utils.helpers import calculate_table_height
 from src.utils.constants import (ALIASES,
                                  ALL_STAT_KEYS,
                                  BASE_URL,
@@ -156,16 +155,12 @@ def _collapse_duplicates(df: pd.DataFrame) -> pd.DataFrame:
 def render_build_editor() -> None:
     df_original = st.session_state.build_df
 
-    row_h = 35
-    header_h = 30
-    total_h = header_h + len(df_original) * row_h + 8
-
     df_edited = st.data_editor(
         df_original,
         hide_index=True,
         use_container_width=True,
         key="build_df_editor",
-        height=total_h,
+        height=calculate_table_height(df_original),
         column_config={
             "Артефакт": st.column_config.TextColumn("Артефакт", disabled=True),
             "Тир": st.column_config.NumberColumn("Тир", min_value=1, max_value=4, step=1),
@@ -183,16 +178,15 @@ def render_build_interactive() -> None:
     df = st.session_state.build_df
 
     hdr = st.columns([4.4, 1.2, 1.9, 0.5], gap="small")
-    hdr[0].markdown("**Артефакт**")
-    hdr[1].markdown("**Тир**")
-    hdr[2].markdown("**Количество**")
+    hdr[1].markdown("<div style='font-size:16px; margin-bottom: 7px;'>Тир</div>", unsafe_allow_html=True)
+    hdr[2].markdown("<div style='font-size:16px; margin-bottom: 7px;'>Количество</div>", unsafe_allow_html=True)
 
     for idx, row in df.iterrows():
         cols = st.columns([4, 1.2, 1.9, 0.5], gap="small")
 
         cols[0].markdown(
-            f"<div style='margin-top:5px;font-size:18px;'>"
-            f"<strong>{row['Артефакт']}</strong></div>",
+            f"<div style='margin-top:5px;font-size:17px;'>"
+            f"{row['Артефакт']}</div>",
             unsafe_allow_html=True,
         )
 
@@ -326,7 +320,7 @@ def style_metrics_html(df: pd.DataFrame) -> str:
         if prop == "🌡️ Температура":
             color = "inherit"
         else:
-            color = "green" if raw_val > 0 else ("red" if raw_val < 0 else "inherit")
+            color = "#4CAF50" if raw_val > 0 else ("#E74C3C" if raw_val < 0 else "inherit")
 
         rows.append(
             f'<tr>'
@@ -383,37 +377,97 @@ def manual_calculator_page() -> None:
 
     with ctrl_col:
         st.markdown("""
-        <h4 style="margin:0 0 0px">
-          🧩 Пульт сборки
-          <span title="Добавляй артефакты в сборку через селекторы ниже — или во вкладке выше, где есть отдельные кнопки, фильтры и поиск по названию."
-                style="font-size: 0.6em; vertical-align: middle; margin-left: 6px; cursor: help;">🛈</span>
-        </h4>
+        <h4 style="margin:0 0 0px; font-size: 1.3em;"> 🧩 Пульт сборки </h4>
         """, unsafe_allow_html=True)
 
         st.markdown("<hr style='margin:0;border:0;border-top:1px solid #3D4044'>", unsafe_allow_html=True)
 
+        show_tt = st.toggle("Свойства артефакта", value=False, key="show_tooltips_ctrl")
         art_name = st.selectbox("Артефакт", sorted(art_data), key="simple_art")
         tier = st.selectbox("Тир", [1, 2, 3, 4], key="simple_tier")
 
         st.markdown("<div style='height:28px'></div>", unsafe_allow_html=True)
         if st.button("➕ Добавить", key="simple_add"):
-            add_artifact_to_df(art_name, tier, 1)
+            current = st.session_state.build_df.loc[
+                (st.session_state.build_df["Артефакт"] == art_name) &
+                (st.session_state.build_df["Тир"] == tier),
+                "Количество"
+            ].sum()
+            if current < 25:
+                add_artifact_to_df(art_name, tier, 1)
+            else:
+                pass
             st.rerun()
+
+        if show_tt:
+            tooltip = get_artifact_tooltip(
+                art_data,
+                st.session_state.simple_art,
+                st.session_state.simple_tier,
+                ALIASES
+            )
+            items = []
+            for line in tooltip.split("|"):
+                prop, val = line.split(":")
+                val = val.strip()
+                prop = prop.strip()
+
+                color = "inherit"
+                negative_props = {"☢️ Накопление рад.", "🔪 Шанс пореза", "🦴 Шанс перелома"}
+
+                if "Температура" not in prop:
+                    num = float(val)
+                    if prop in negative_props:
+                        if num < 0:
+                            color = "#4CAF50"
+                        elif num > 0:
+                            color = "#E74C3C"
+                    else:
+                        if num > 0:
+                            color = "#4CAF50"
+                        elif num < 0:
+                            color = "#E74C3C"
+
+                items.append(
+                    f"<li>"
+                    f"{prop}: "
+                    f"<span style='color:{color};'>{val}</span>"
+                    f"</li>"
+                )
+
+            items_html = "<ul>" + "".join(items) + "</ul>"
+
+            st.markdown(f"""
+                <div class="tooltip-container">
+                  <strong>{art_name} (Тир {tier}) даёт:</strong>
+                  <div class="custom-tooltip">
+                    {items_html}
+                  </div>
+                </div>
+                """, unsafe_allow_html=True)
 
     with build_col:
         total = int(ss.build_df["Количество"].sum())
         st.markdown(f"""
-        <h4 style='margin:0 0 0px;'>
-          🧾 Артефактный регистр открыт: {total}
-          <span title="Состав сборки, который можно редактировать во вкладках ниже:\n📋 Таблица — прямо в строках.\n🔧 Интерактив — с кнопками и выпадающим списком.\n📝 Текст — только чтение, удобно скопировать"
-                style="font-size: 0.65em; vertical-align: middle; margin-left: 6px; cursor: help;">🛈</span>
-        </h4>
+        <h4 style='margin:0 0 0px; font-size: 1.3em;'>🧾 Артефактный регистр открыт: {total} </h4>
         """, unsafe_allow_html=True)
 
         st.markdown("<hr style='margin:0;border:0;border-top:1px solid #3D4044'>", unsafe_allow_html=True)
 
         if ss.build_df.empty:
-            st.info("Артефакт, мсье? Или два?")
+            st.info("""
+            📍 В «Пульте сборки» всё просто: выбрал артефакт — добавил.
+
+            🎯 Но если ты хочешь выбрать по фильтрам, свойствам или просто полистать — загляни чуть выше, в блок «📚 Список всех артефактов».
+
+            📦 Когда артефакты уже в сборке — управляй ими здесь, во вкладках:
+
+            - 📋 **Таблица** — редактируй прямо в строках  
+            - 🔧 **Интерактив** — кнопочки, выпадающие списки и немного магии  
+            - 📝 **Текст** — для копирования, если нужно поделиться или сохранить
+
+            💡 А если сборка пуста — самое время начать.
+            """)
         else:
             tab_table, tab_ctrl, tab_text = st.tabs(["📋 Таблица", "🔧 Интерактив", "📝 Текст"])
 
@@ -430,14 +484,7 @@ def manual_calculator_page() -> None:
 
     with metr_col:
         st.markdown("""
-        <h4 style="margin:0 0 0px">
-          🧠 Что мы собрали?
-          <span title="Итоговые характеристики сборки.  
-        Скрываем свойства, на которые сборка не влияет."
-                style="font-size: 0.65em; vertical-align: middle; margin-left: 6px; cursor: help;">
-            🛈
-          </span>
-        </h4>
+        <h4 style="margin:0 0 0px; font-size: 1.3em;"> 🧠 Что мы собрали? </h4>
         """, unsafe_allow_html=True)
 
         st.markdown("<hr style='margin:0;border:0;border-top:1px solid #3D4044'>", unsafe_allow_html=True)

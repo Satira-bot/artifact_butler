@@ -271,8 +271,8 @@ table.custom-metrics {
 table.custom-metrics th,
 table.custom-metrics td {
   padding: 0 6px !important;
-  font-size: 19px !important;
-  height: 20px !important;
+  font-size: 18px !important;
+  height: 15px !important;
   text-align: left;
 }
 
@@ -328,4 +328,42 @@ table.custom-metrics > tbody > tr:nth-last-child(-n+2) .has-tooltip::after {
   bottom: 100%;
   margin-top: 0;
   margin-bottom: 4px;
+}
+
+.tooltip-container {
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #1A1C24;
+  margin-top: 16px;
+}
+
+.tooltip-container > strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1em;
+}
+
+.custom-tooltip ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  line-height: 1.3;
+  font-size: 0.9em;
+}
+
+.custom-tooltip li {
+  position: relative;
+  padding-left: 0.1em;
+  margin-bottom: 4px;
+}
+
+.custom-tooltip li::before {
+  content: "-";
+  position: absolute;
+  left: -0.8em;
+  color: #8B8F98;
+}
+
+.tooltip-container > strong {
+  font-size: 0.95em;
 }

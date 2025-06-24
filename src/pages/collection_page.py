@@ -4,6 +4,7 @@ import streamlit as st
 from typing import Dict, List, Any
 
 from src.utils.constants import BUILDS_FILE, BASE_URL
+from src.utils.helpers import calculate_table_height
 from src.pages.calculator_page import (
     load_artifacts,
     df_from_encoded_build,
@@ -49,16 +50,12 @@ def _render_build_tab(build: Dict[str, Any], art_data: Dict[str, Dict[str, Dict[
     _, left_col, right_col, _ = st.columns([0.6, 1, 1, 0.6], gap="large")
 
     with left_col:
-        row_h = 35
-        header_h = 30
-        total_h = header_h + len(df) * row_h + 8
-
         st.data_editor(
             df,
             hide_index=True,
             use_container_width=True,
             key=f"build_editor_{build['id']}",
-            height=total_h,
+            height=calculate_table_height(df),
             column_config={
                 "Артефакт": st.column_config.TextColumn("Артефакт", disabled=True),
                 "Тир": st.column_config.NumberColumn("Тир", disabled=True),

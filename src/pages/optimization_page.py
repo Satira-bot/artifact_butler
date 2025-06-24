@@ -218,7 +218,7 @@ def optimization_page() -> None:
             df = h.props_to_df(props)
             df_editor = st.data_editor(
                 df, num_rows="fixed", hide_index=True, use_container_width=True,
-                height=30 + len(df) * 35 + 8,
+                height=h.calculate_table_height(df),
                 column_config={
                     "Use": st.column_config.CheckboxColumn(
                         "Учитываем",
@@ -361,7 +361,7 @@ def optimization_page() -> None:
                     build,
                     columns=["Артефакт", "Тир", "Количество"]
                 )
-                st.dataframe(df_build, hide_index=True, height=30 + len(df_build) * 35 + 8)
+                st.dataframe(df_build, hide_index=True, height=h.calculate_table_height(df_build))
 
             with tabs[1]:
                 txt_pretty = "\n".join(
@@ -405,7 +405,6 @@ def optimization_page() -> None:
             )
             html = f"""
             <div style="
-                border:1px solid #24272D;
                 border-radius:8px;
                 padding:12px;
                 background-color:#1A1C24;

@@ -28,7 +28,7 @@ class Settings:
     props_file: str = "props_tier3.yaml"
 
     def __post_init__(self) -> None:
-        self.alt_runs =self.alt_cnt
+        self.alt_runs = self.alt_cnt
 
     def recompute(self) -> None:
         """
@@ -261,3 +261,16 @@ def df_to_props(df: pd.DataFrame, props: Props) -> None:
 def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
+
+
+def calculate_table_height(df, row_height: int = 35, header_height: int = 30, extra_padding: int = 8) -> int:
+    """
+    Вычисляет общую высоту таблицы по числу строк в DataFrame.
+
+    :param df: таблица, для которой вычисляем высоту
+    :param row_height: высота одной строки в пикселях
+    :param header_height: высота шапки таблицы в пикселях
+    :param extra_padding: дополнительный отступ в пикселях
+    :return: общая высота в пикселях
+    """
+    return header_height + len(df) * row_height + extra_padding
